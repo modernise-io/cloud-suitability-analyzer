@@ -24,7 +24,6 @@ import (
 	"runtime/debug"
 
 	//"runtime/pprof"
-
 	"github.com/pkg/profile"
 	"github.com/sirupsen/logrus"
 	"github.com/vmware-tanzu/cloud-suitability-analyzer/go/backend/routes"

@@ -20,7 +20,7 @@ if [[ "$OS" == *"$LINUX"* ]]; then
     echo "     LINUX"
 fi
 
-#---  fail if any command returns a non-zero result
+#---  fail if anG0111MODULEy command returns a non-zero result
 set -e
 
 
@@ -30,7 +30,7 @@ set -e
 export GOSUMDB=off
 
 #--- set module mode
-export G0111MODULE=onS
+export =on
 export GOBIN=/go/bin
 export PATH=$GOPATH/bin:$PATH
 export WORKING_DIR="/cloud-suitability-analyzer"
