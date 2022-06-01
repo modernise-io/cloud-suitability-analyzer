@@ -1,0 +1,12 @@
+name: java-squareup.yaml
+filetype: (jsp$|java$)
+target: line echo name: squareup
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: squareup
+tags:
+- value: squareup
+patterns:
+- value: squareup

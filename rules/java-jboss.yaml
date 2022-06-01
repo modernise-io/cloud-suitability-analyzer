@@ -1,17 +1,12 @@
----
-#--- updated from 8/8/18 Survey
-name: java-jboss
-filetype: java$
-target: line
-type: contains
-advice: Convert to Spring based POJOs instead of using container specific functionality
-effort: 50
-readiness: 5
+name: java-jboss.yaml
+filetype: (jsp$|java$)
+target: line echo name: jboss
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
 category: jboss
 tags:
-  - value: api
-  - value: jboss
-  - value: jboss-import
+- value: jboss
 patterns:
-  - value: import org.jboss.
-## import org.jboss.
+- value: jboss

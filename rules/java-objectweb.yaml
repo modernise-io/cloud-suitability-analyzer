@@ -1,0 +1,12 @@
+name: java-objectweb.yaml
+filetype: (jsp$|java$)
+target: line echo name: objectweb
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: objectweb
+tags:
+- value: objectweb
+patterns:
+- value: objectweb

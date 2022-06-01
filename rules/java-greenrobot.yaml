@@ -1,0 +1,12 @@
+name: java-greenrobot.yaml
+filetype: (jsp$|java$)
+target: line echo name: greenrobot
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: greenrobot
+tags:
+- value: greenrobot
+patterns:
+- value: greenrobot

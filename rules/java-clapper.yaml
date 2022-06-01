@@ -1,0 +1,12 @@
+name: java-clapper.yaml
+filetype: (jsp$|java$)
+target: line echo name: clapper
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: clapper
+tags:
+- value: clapper
+patterns:
+- value: clapper

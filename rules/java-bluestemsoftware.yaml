@@ -1,0 +1,12 @@
+name: java-bluestemsoftware.yaml
+filetype: (jsp$|java$)
+target: line echo name: bluestemsoftware
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: bluestemsoftware
+tags:
+- value: bluestemsoftware
+patterns:
+- value: bluestemsoftware

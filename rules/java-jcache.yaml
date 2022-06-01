@@ -1,24 +1,12 @@
----
-#--- updated from 8/8/18 Survey
-name: java-jcache
-filetype: java$
-target: line
+name: java-jcache.yaml
+filetype: (jsp$|java$)
+target: line echo name: jcache
+filetype: (jsp$|java$)
 type: regex
-defaultpattern: "^.*[ .]%s[ ({.<].*"
-effort: 50
-readiness: 6
-advice: Convert to redis or consider TKG
-category: cache
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jcache
 tags:
-  - value: api
-  - value: cache
-  - value: jcache
+- value: jcache
 patterns:
-  - value: getConfigurableCacheFactory
-  - value: NamedCache
-  - value: ReflectionExtractor
-  - value: ChainedExtractor
-##  getConfigurableCacheFactory(
-##  NamedCache(
-##  ReflectionExtractor(
-##  ChainedExtractor(
+- value: jcache

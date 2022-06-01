@@ -1,0 +1,12 @@
+name: java-scala-tools.yaml
+filetype: (jsp$|java$)
+target: line echo name: scala-tools
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: scala-tools
+tags:
+- value: scala-tools
+patterns:
+- value: scala-tools

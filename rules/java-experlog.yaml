@@ -1,0 +1,12 @@
+name: java-experlog.yaml
+filetype: (jsp$|java$)
+target: line echo name: experlog
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: experlog
+tags:
+- value: experlog
+patterns:
+- value: experlog

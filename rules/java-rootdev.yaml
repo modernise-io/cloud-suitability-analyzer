@@ -1,0 +1,12 @@
+name: java-rootdev.yaml
+filetype: (jsp$|java$)
+target: line echo name: rootdev
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: rootdev
+tags:
+- value: rootdev
+patterns:
+- value: rootdev

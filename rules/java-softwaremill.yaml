@@ -1,0 +1,12 @@
+name: java-softwaremill.yaml
+filetype: (jsp$|java$)
+target: line echo name: softwaremill
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: softwaremill
+tags:
+- value: softwaremill
+patterns:
+- value: softwaremill

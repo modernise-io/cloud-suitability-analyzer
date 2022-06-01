@@ -1,0 +1,12 @@
+name: java-gosu.yaml
+filetype: (jsp$|java$)
+target: line echo name: gosu
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: gosu
+tags:
+- value: gosu
+patterns:
+- value: gosu

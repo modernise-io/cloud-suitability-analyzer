@@ -1,0 +1,12 @@
+name: java-log4j.yaml
+filetype: (jsp$|java$)
+target: line echo name: log4j
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: log4j
+tags:
+- value: log4j
+patterns:
+- value: log4j

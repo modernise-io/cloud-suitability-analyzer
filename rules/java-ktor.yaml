@@ -1,0 +1,12 @@
+name: java-ktor.yaml
+filetype: (jsp$|java$)
+target: line echo name: ktor
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: ktor
+tags:
+- value: ktor
+patterns:
+- value: ktor

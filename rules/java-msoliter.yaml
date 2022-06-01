@@ -1,0 +1,12 @@
+name: java-msoliter.yaml
+filetype: (jsp$|java$)
+target: line echo name: msoliter
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: msoliter
+tags:
+- value: msoliter
+patterns:
+- value: msoliter

@@ -1,0 +1,12 @@
+name: java-librato.yaml
+filetype: (jsp$|java$)
+target: line echo name: librato
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: librato
+tags:
+- value: librato
+patterns:
+- value: librato

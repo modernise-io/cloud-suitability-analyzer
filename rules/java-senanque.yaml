@@ -1,0 +1,12 @@
+name: java-senanque.yaml
+filetype: (jsp$|java$)
+target: line echo name: senanque
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: senanque
+tags:
+- value: senanque
+patterns:
+- value: senanque

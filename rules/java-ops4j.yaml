@@ -1,0 +1,12 @@
+name: java-ops4j.yaml
+filetype: (jsp$|java$)
+target: line echo name: ops4j
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: ops4j
+tags:
+- value: ops4j
+patterns:
+- value: ops4j

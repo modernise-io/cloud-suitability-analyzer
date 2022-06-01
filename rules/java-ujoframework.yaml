@@ -1,0 +1,12 @@
+name: java-ujoframework.yaml
+filetype: (jsp$|java$)
+target: line echo name: ujoframework
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: ujoframework
+tags:
+- value: ujoframework
+patterns:
+- value: ujoframework

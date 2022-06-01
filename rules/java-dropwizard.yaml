@@ -1,0 +1,12 @@
+name: java-dropwizard.yaml
+filetype: (jsp$|java$)
+target: line echo name: dropwizard
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: dropwizard
+tags:
+- value: dropwizard
+patterns:
+- value: dropwizard

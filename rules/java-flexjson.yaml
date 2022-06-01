@@ -1,0 +1,12 @@
+name: java-flexjson.yaml
+filetype: (jsp$|java$)
+target: line echo name: flexjson
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: flexjson
+tags:
+- value: flexjson
+patterns:
+- value: flexjson

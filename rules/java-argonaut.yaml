@@ -1,0 +1,12 @@
+name: java-argonaut.yaml
+filetype: (jsp$|java$)
+target: line echo name: argonaut
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: argonaut
+tags:
+- value: argonaut
+patterns:
+- value: argonaut

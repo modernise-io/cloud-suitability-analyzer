@@ -1,0 +1,12 @@
+name: java-p6spy.yaml
+filetype: (jsp$|java$)
+target: line echo name: p6spy
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: p6spy
+tags:
+- value: p6spy
+patterns:
+- value: p6spy

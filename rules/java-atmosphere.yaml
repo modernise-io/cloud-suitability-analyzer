@@ -1,0 +1,12 @@
+name: java-atmosphere.yaml
+filetype: (jsp$|java$)
+target: line echo name: atmosphere
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: atmosphere
+tags:
+- value: atmosphere
+patterns:
+- value: atmosphere

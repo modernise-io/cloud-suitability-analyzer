@@ -1,0 +1,12 @@
+name: java-specs2.yaml
+filetype: (jsp$|java$)
+target: line echo name: specs2
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: specs2
+tags:
+- value: specs2
+patterns:
+- value: specs2

@@ -1,0 +1,12 @@
+name: java-opensynphony.yaml
+filetype: (jsp$|java$)
+target: line echo name: opensynphony
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: opensynphony
+tags:
+- value: opensynphony
+patterns:
+- value: opensynphony

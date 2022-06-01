@@ -1,0 +1,12 @@
+name: java-itextpdf.yaml
+filetype: (jsp$|java$)
+target: line echo name: itextpdf
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: itextpdf
+tags:
+- value: itextpdf
+patterns:
+- value: itextpdf

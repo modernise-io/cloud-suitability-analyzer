@@ -1,0 +1,12 @@
+name: java-oneeyedman.yaml
+filetype: (jsp$|java$)
+target: line echo name: oneeyedman
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: oneeyedman
+tags:
+- value: oneeyedman
+patterns:
+- value: oneeyedman

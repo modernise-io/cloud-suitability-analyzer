@@ -1,0 +1,12 @@
+name: java-mckoi.yaml
+filetype: (jsp$|java$)
+target: line echo name: mckoi
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: mckoi
+tags:
+- value: mckoi
+patterns:
+- value: mckoi

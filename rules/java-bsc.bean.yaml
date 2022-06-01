@@ -1,0 +1,12 @@
+name: java-bsc.bean.yaml
+filetype: (jsp$|java$)
+target: line echo name: bsc.bean
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: bsc.bean
+tags:
+- value: bsc.bean
+patterns:
+- value: bsc.bean

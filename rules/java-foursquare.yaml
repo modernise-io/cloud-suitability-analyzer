@@ -1,0 +1,12 @@
+name: java-foursquare.yaml
+filetype: (jsp$|java$)
+target: line echo name: foursquare
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: foursquare
+tags:
+- value: foursquare
+patterns:
+- value: foursquare

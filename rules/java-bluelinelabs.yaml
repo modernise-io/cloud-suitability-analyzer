@@ -1,0 +1,12 @@
+name: java-bluelinelabs.yaml
+filetype: (jsp$|java$)
+target: line echo name: bluelinelabs
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: bluelinelabs
+tags:
+- value: bluelinelabs
+patterns:
+- value: bluelinelabs

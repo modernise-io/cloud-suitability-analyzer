@@ -1,0 +1,12 @@
+name: java-wix.yaml
+filetype: (jsp$|java$)
+target: line echo name: wix
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: wix
+tags:
+- value: wix
+patterns:
+- value: wix

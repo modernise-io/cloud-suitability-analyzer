@@ -1,0 +1,12 @@
+name: java-mockobjects.yaml
+filetype: (jsp$|java$)
+target: line echo name: mockobjects
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: mockobjects
+tags:
+- value: mockobjects
+patterns:
+- value: mockobjects

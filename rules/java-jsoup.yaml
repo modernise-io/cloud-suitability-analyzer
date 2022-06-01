@@ -1,0 +1,12 @@
+name: java-jsoup.yaml
+filetype: (jsp$|java$)
+target: line echo name: jsoup
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jsoup
+tags:
+- value: jsoup
+patterns:
+- value: jsoup

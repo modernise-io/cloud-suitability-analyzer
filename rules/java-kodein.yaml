@@ -1,0 +1,12 @@
+name: java-kodein.yaml
+filetype: (jsp$|java$)
+target: line echo name: kodein
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: kodein
+tags:
+- value: kodein
+patterns:
+- value: kodein

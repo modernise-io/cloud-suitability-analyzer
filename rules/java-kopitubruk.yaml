@@ -1,0 +1,12 @@
+name: java-kopitubruk.yaml
+filetype: (jsp$|java$)
+target: line echo name: kopitubruk
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: kopitubruk
+tags:
+- value: kopitubruk
+patterns:
+- value: kopitubruk

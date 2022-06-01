@@ -1,0 +1,12 @@
+name: java-com.m3.yaml
+filetype: (jsp$|java$)
+target: line echo name: com.m3
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: com.m3
+tags:
+- value: com.m3
+patterns:
+- value: com.m3

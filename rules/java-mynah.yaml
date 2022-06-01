@@ -1,0 +1,12 @@
+name: java-mynah.yaml
+filetype: (jsp$|java$)
+target: line echo name: mynah
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: mynah
+tags:
+- value: mynah
+patterns:
+- value: mynah

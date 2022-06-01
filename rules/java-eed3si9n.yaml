@@ -1,0 +1,12 @@
+name: java-eed3si9n.yaml
+filetype: (jsp$|java$)
+target: line echo name: eed3si9n
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: eed3si9n
+tags:
+- value: eed3si9n
+patterns:
+- value: eed3si9n

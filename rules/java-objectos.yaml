@@ -1,0 +1,12 @@
+name: java-objectos.yaml
+filetype: (jsp$|java$)
+target: line echo name: objectos
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: objectos
+tags:
+- value: objectos
+patterns:
+- value: objectos

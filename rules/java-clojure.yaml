@@ -1,0 +1,12 @@
+name: java-clojure.yaml
+filetype: (jsp$|java$)
+target: line echo name: clojure
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: clojure
+tags:
+- value: clojure
+patterns:
+- value: clojure

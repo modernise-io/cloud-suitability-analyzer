@@ -1,0 +1,12 @@
+name: java-mockachino.yaml
+filetype: (jsp$|java$)
+target: line echo name: mockachino
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: mockachino
+tags:
+- value: mockachino
+patterns:
+- value: mockachino

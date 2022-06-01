@@ -1,0 +1,12 @@
+name: java-twitter.yaml
+filetype: (jsp$|java$)
+target: line echo name: twitter
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: twitter
+tags:
+- value: twitter
+patterns:
+- value: twitter

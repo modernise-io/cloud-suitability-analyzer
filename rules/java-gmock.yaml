@@ -1,0 +1,12 @@
+name: java-gmock.yaml
+filetype: (jsp$|java$)
+target: line echo name: gmock
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: gmock
+tags:
+- value: gmock
+patterns:
+- value: gmock

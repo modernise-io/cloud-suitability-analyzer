@@ -1,0 +1,12 @@
+name: java-codahale.yaml
+filetype: (jsp$|java$)
+target: line echo name: codahale
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: codahale
+tags:
+- value: codahale
+patterns:
+- value: codahale

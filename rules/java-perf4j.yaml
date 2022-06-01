@@ -1,0 +1,12 @@
+name: java-perf4j.yaml
+filetype: (jsp$|java$)
+target: line echo name: perf4j
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: perf4j
+tags:
+- value: perf4j
+patterns:
+- value: perf4j

@@ -1,0 +1,12 @@
+name: java-pojomvcc.yaml
+filetype: (jsp$|java$)
+target: line echo name: pojomvcc
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: pojomvcc
+tags:
+- value: pojomvcc
+patterns:
+- value: pojomvcc

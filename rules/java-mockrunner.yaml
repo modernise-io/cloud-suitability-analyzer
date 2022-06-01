@@ -1,0 +1,12 @@
+name: java-mockrunner.yaml
+filetype: (jsp$|java$)
+target: line echo name: mockrunner
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: mockrunner
+tags:
+- value: mockrunner
+patterns:
+- value: mockrunner

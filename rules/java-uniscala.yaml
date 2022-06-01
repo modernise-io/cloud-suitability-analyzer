@@ -1,0 +1,12 @@
+name: java-uniscala.yaml
+filetype: (jsp$|java$)
+target: line echo name: uniscala
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: uniscala
+tags:
+- value: uniscala
+patterns:
+- value: uniscala

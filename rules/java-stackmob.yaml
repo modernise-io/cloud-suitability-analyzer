@@ -1,0 +1,12 @@
+name: java-stackmob.yaml
+filetype: (jsp$|java$)
+target: line echo name: stackmob
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: stackmob
+tags:
+- value: stackmob
+patterns:
+- value: stackmob

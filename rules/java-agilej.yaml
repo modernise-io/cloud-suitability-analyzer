@@ -1,0 +1,12 @@
+name: java-agilej.yaml
+filetype: (jsp$|java$)
+target: line echo name: agilej
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: agilej
+tags:
+- value: agilej
+patterns:
+- value: agilej

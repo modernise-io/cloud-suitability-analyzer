@@ -1,0 +1,12 @@
+name: java-golo-lang.yaml
+filetype: (jsp$|java$)
+target: line echo name: golo-lang
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: golo-lang
+tags:
+- value: golo-lang
+patterns:
+- value: golo-lang

@@ -1,0 +1,12 @@
+name: java-ow2.yaml
+filetype: (jsp$|java$)
+target: line echo name: ow2
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: ow2
+tags:
+- value: ow2
+patterns:
+- value: ow2

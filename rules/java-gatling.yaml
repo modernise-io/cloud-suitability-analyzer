@@ -1,0 +1,12 @@
+name: java-gatling.yaml
+filetype: (jsp$|java$)
+target: line echo name: gatling
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: gatling
+tags:
+- value: gatling
+patterns:
+- value: gatling

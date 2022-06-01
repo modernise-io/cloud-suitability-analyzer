@@ -1,0 +1,12 @@
+name: java-io.sari.yaml
+filetype: (jsp$|java$)
+target: line echo name: io.sari
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: io.sari
+tags:
+- value: io.sari
+patterns:
+- value: io.sari

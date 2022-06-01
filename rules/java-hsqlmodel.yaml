@@ -1,0 +1,12 @@
+name: java-hsqlmodel.yaml
+filetype: (jsp$|java$)
+target: line echo name: hsqlmodel
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: hsqlmodel
+tags:
+- value: hsqlmodel
+patterns:
+- value: hsqlmodel

@@ -1,0 +1,12 @@
+name: java-meza.yaml
+filetype: (jsp$|java$)
+target: line echo name: meza
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: meza
+tags:
+- value: meza
+patterns:
+- value: meza

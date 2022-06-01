@@ -1,0 +1,12 @@
+name: java-paralleluniverse.yaml
+filetype: (jsp$|java$)
+target: line echo name: paralleluniverse
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: paralleluniverse
+tags:
+- value: paralleluniverse
+patterns:
+- value: paralleluniverse

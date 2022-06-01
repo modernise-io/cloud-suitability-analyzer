@@ -1,0 +1,12 @@
+name: java-rhq.yaml
+filetype: (jsp$|java$)
+target: line echo name: rhq
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: rhq
+tags:
+- value: rhq
+patterns:
+- value: rhq

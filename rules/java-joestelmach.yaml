@@ -1,0 +1,12 @@
+name: java-joestelmach.yaml
+filetype: (jsp$|java$)
+target: line echo name: joestelmach
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: joestelmach
+tags:
+- value: joestelmach
+patterns:
+- value: joestelmach

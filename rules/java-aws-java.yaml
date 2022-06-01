@@ -1,0 +1,12 @@
+name: java-aws-java.yaml
+filetype: (jsp$|java$)
+target: line echo name: aws-java
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: aws-java
+tags:
+- value: aws-java
+patterns:
+- value: aws-java

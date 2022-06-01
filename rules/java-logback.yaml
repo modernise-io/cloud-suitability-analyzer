@@ -1,0 +1,12 @@
+name: java-logback.yaml
+filetype: (jsp$|java$)
+target: line echo name: logback
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: logback
+tags:
+- value: logback
+patterns:
+- value: logback

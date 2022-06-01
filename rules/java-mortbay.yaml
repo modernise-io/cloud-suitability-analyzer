@@ -1,0 +1,12 @@
+name: java-mortbay.yaml
+filetype: (jsp$|java$)
+target: line echo name: mortbay
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: mortbay
+tags:
+- value: mortbay
+patterns:
+- value: mortbay

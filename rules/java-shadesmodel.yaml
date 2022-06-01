@@ -1,0 +1,12 @@
+name: java-shadesmodel.yaml
+filetype: (jsp$|java$)
+target: line echo name: shadesmodel
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: shadesmodel
+tags:
+- value: shadesmodel
+patterns:
+- value: shadesmodel

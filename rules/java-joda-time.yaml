@@ -1,0 +1,12 @@
+name: java-joda-time.yaml
+filetype: (jsp$|java$)
+target: line echo name: joda-time
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: joda-time
+tags:
+- value: joda-time
+patterns:
+- value: joda-time

@@ -1,0 +1,12 @@
+name: java-tornado.yaml
+filetype: (jsp$|java$)
+target: line echo name: tornado
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: tornado
+tags:
+- value: tornado
+patterns:
+- value: tornado

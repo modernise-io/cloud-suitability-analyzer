@@ -1,0 +1,12 @@
+name: java-axion.yaml
+filetype: (jsp$|java$)
+target: line echo name: axion
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: axion
+tags:
+- value: axion
+patterns:
+- value: axion

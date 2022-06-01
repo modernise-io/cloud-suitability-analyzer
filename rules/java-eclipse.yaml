@@ -1,0 +1,12 @@
+name: java-eclipse.yaml
+filetype: (jsp$|java$)
+target: line echo name: eclipse
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: eclipse
+tags:
+- value: eclipse
+patterns:
+- value: eclipse

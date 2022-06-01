@@ -1,0 +1,12 @@
+name: java-kuali.yaml
+filetype: (jsp$|java$)
+target: line echo name: kuali
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: kuali
+tags:
+- value: kuali
+patterns:
+- value: kuali

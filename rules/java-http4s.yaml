@@ -1,0 +1,12 @@
+name: java-http4s.yaml
+filetype: (jsp$|java$)
+target: line echo name: http4s
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: http4s
+tags:
+- value: http4s
+patterns:
+- value: http4s

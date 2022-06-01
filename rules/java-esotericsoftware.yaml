@@ -1,0 +1,12 @@
+name: java-esotericsoftware.yaml
+filetype: (jsp$|java$)
+target: line echo name: esotericsoftware
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: esotericsoftware
+tags:
+- value: esotericsoftware
+patterns:
+- value: esotericsoftware

@@ -1,0 +1,12 @@
+name: java-zalando.yaml
+filetype: (jsp$|java$)
+target: line echo name: zalando
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: zalando
+tags:
+- value: zalando
+patterns:
+- value: zalando

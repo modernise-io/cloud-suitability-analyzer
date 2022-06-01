@@ -1,0 +1,12 @@
+name: java-io.spray.yaml
+filetype: (jsp$|java$)
+target: line echo name: io.spray
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: io.spray
+tags:
+- value: io.spray
+patterns:
+- value: io.spray

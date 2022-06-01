@@ -1,0 +1,12 @@
+name: java-yammer.yaml
+filetype: (jsp$|java$)
+target: line echo name: yammer
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: yammer
+tags:
+- value: yammer
+patterns:
+- value: yammer

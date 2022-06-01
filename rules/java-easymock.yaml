@@ -1,0 +1,12 @@
+name: java-easymock.yaml
+filetype: (jsp$|java$)
+target: line echo name: easymock
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: easymock
+tags:
+- value: easymock
+patterns:
+- value: easymock

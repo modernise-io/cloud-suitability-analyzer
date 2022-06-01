@@ -1,0 +1,12 @@
+name: java-plausible.yaml
+filetype: (jsp$|java$)
+target: line echo name: plausible
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: plausible
+tags:
+- value: plausible
+patterns:
+- value: plausible

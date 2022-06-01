@@ -1,0 +1,12 @@
+name: java-json4s.yaml
+filetype: (jsp$|java$)
+target: line echo name: json4s
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: json4s
+tags:
+- value: json4s
+patterns:
+- value: json4s

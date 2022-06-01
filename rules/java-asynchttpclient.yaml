@@ -1,0 +1,12 @@
+name: java-asynchttpclient.yaml
+filetype: (jsp$|java$)
+target: line echo name: asynchttpclient
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: asynchttpclient
+tags:
+- value: asynchttpclient
+patterns:
+- value: asynchttpclient

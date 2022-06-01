@@ -1,0 +1,12 @@
+name: java-jruby.yaml
+filetype: (jsp$|java$)
+target: line echo name: jruby
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jruby
+tags:
+- value: jruby
+patterns:
+- value: jruby

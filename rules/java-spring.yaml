@@ -1,0 +1,12 @@
+name: java-spring.yaml
+filetype: (jsp$|java$)
+target: line echo name: spring
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: spring
+tags:
+- value: spring
+patterns:
+- value: spring

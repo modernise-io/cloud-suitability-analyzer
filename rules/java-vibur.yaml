@@ -1,0 +1,12 @@
+name: java-vibur.yaml
+filetype: (jsp$|java$)
+target: line echo name: vibur
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: vibur
+tags:
+- value: vibur
+patterns:
+- value: vibur

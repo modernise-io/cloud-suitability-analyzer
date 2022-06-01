@@ -1,0 +1,12 @@
+name: java-swinglabs.yaml
+filetype: (jsp$|java$)
+target: line echo name: swinglabs
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: swinglabs
+tags:
+- value: swinglabs
+patterns:
+- value: swinglabs

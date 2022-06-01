@@ -1,0 +1,12 @@
+name: java-vaadin.yaml
+filetype: (jsp$|java$)
+target: line echo name: vaadin
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: vaadin
+tags:
+- value: vaadin
+patterns:
+- value: vaadin

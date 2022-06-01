@@ -1,0 +1,12 @@
+name: java-jdev.yaml
+filetype: (jsp$|java$)
+target: line echo name: jdev
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jdev
+tags:
+- value: jdev
+patterns:
+- value: jdev

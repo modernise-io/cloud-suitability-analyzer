@@ -1,0 +1,12 @@
+name: java-hmsonline.yaml
+filetype: (jsp$|java$)
+target: line echo name: hmsonline
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: hmsonline
+tags:
+- value: hmsonline
+patterns:
+- value: hmsonline

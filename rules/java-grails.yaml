@@ -1,0 +1,12 @@
+name: java-grails.yaml
+filetype: (jsp$|java$)
+target: line echo name: grails
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: grails
+tags:
+- value: grails
+patterns:
+- value: grails

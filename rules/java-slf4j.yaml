@@ -1,0 +1,12 @@
+name: java-slf4j.yaml
+filetype: (jsp$|java$)
+target: line echo name: slf4j
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: slf4j
+tags:
+- value: slf4j
+patterns:
+- value: slf4j

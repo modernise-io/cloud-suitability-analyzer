@@ -1,0 +1,12 @@
+name: java-metamx.yaml
+filetype: (jsp$|java$)
+target: line echo name: metamx
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: metamx
+tags:
+- value: metamx
+patterns:
+- value: metamx

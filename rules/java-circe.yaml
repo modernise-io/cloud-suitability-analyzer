@@ -1,0 +1,12 @@
+name: java-circe.yaml
+filetype: (jsp$|java$)
+target: line echo name: circe
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: circe
+tags:
+- value: circe
+patterns:
+- value: circe

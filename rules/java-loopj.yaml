@@ -1,0 +1,12 @@
+name: java-loopj.yaml
+filetype: (jsp$|java$)
+target: line echo name: loopj
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: loopj
+tags:
+- value: loopj
+patterns:
+- value: loopj

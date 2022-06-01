@@ -1,0 +1,12 @@
+name: java-airlift.yaml
+filetype: (jsp$|java$)
+target: line echo name: airlift
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: airlift
+tags:
+- value: airlift
+patterns:
+- value: airlift

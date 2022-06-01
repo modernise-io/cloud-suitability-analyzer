@@ -1,0 +1,12 @@
+name: java-savant.yaml
+filetype: (jsp$|java$)
+target: line echo name: savant
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: savant
+tags:
+- value: savant
+patterns:
+- value: savant

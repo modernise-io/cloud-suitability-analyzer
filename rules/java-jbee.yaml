@@ -1,0 +1,12 @@
+name: java-jbee.yaml
+filetype: (jsp$|java$)
+target: line echo name: jbee
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jbee
+tags:
+- value: jbee
+patterns:
+- value: jbee

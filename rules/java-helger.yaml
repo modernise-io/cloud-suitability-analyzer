@@ -1,0 +1,12 @@
+name: java-helger.yaml
+filetype: (jsp$|java$)
+target: line echo name: helger
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: helger
+tags:
+- value: helger
+patterns:
+- value: helger

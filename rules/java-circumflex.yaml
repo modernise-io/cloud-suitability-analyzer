@@ -1,0 +1,12 @@
+name: java-circumflex.yaml
+filetype: (jsp$|java$)
+target: line echo name: circumflex
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: circumflex
+tags:
+- value: circumflex
+patterns:
+- value: circumflex

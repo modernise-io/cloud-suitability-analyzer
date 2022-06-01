@@ -1,0 +1,12 @@
+name: java-time4j.yaml
+filetype: (jsp$|java$)
+target: line echo name: time4j
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: time4j
+tags:
+- value: time4j
+patterns:
+- value: time4j

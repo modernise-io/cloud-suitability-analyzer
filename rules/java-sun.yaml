@@ -1,0 +1,12 @@
+name: java-sun.yaml
+filetype: (jsp$|java$)
+target: line echo name: sun
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: sun
+tags:
+- value: sun
+patterns:
+- value: sun

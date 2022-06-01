@@ -1,0 +1,12 @@
+name: java-javassist.yaml
+filetype: (jsp$|java$)
+target: line echo name: javassist
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: javassist
+tags:
+- value: javassist
+patterns:
+- value: javassist

@@ -1,0 +1,12 @@
+name: java-unimi.yaml
+filetype: (jsp$|java$)
+target: line echo name: unimi
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: unimi
+tags:
+- value: unimi
+patterns:
+- value: unimi

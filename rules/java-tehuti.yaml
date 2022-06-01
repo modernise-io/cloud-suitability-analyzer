@@ -1,0 +1,12 @@
+name: java-tehuti.yaml
+filetype: (jsp$|java$)
+target: line echo name: tehuti
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: tehuti
+tags:
+- value: tehuti
+patterns:
+- value: tehuti

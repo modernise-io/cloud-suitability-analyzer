@@ -9,10 +9,8 @@ recipes:
 effort: 1
 readiness: 1000
 tags:
-  - value: container
   - value: non-root
   - value: docker
-  - value: config
 patterns:
   - value: RUN groupadd
   - value: RUN useradd

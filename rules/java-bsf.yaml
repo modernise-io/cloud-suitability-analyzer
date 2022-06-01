@@ -1,0 +1,12 @@
+name: java-bsf.yaml
+filetype: (jsp$|java$)
+target: line echo name: bsf
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: bsf
+tags:
+- value: bsf
+patterns:
+- value: bsf

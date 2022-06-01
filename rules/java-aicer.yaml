@@ -1,0 +1,12 @@
+name: java-aicer.yaml
+filetype: (jsp$|java$)
+target: line echo name: aicer
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: aicer
+tags:
+- value: aicer
+patterns:
+- value: aicer

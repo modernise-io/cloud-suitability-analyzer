@@ -1,0 +1,12 @@
+name: java-m-m-m.yaml
+filetype: (jsp$|java$)
+target: line echo name: m-m-m
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: m-m-m
+tags:
+- value: m-m-m
+patterns:
+- value: m-m-m

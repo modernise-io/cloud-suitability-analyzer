@@ -1,0 +1,12 @@
+name: java-dreampie.yaml
+filetype: (jsp$|java$)
+target: line echo name: dreampie
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: dreampie
+tags:
+- value: dreampie
+patterns:
+- value: dreampie

@@ -1,0 +1,12 @@
+name: java-djodjo.yaml
+filetype: (jsp$|java$)
+target: line echo name: djodjo
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: djodjo
+tags:
+- value: djodjo
+patterns:
+- value: djodjo

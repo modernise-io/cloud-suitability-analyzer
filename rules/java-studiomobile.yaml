@@ -1,0 +1,12 @@
+name: java-studiomobile.yaml
+filetype: (jsp$|java$)
+target: line echo name: studiomobile
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: studiomobile
+tags:
+- value: studiomobile
+patterns:
+- value: studiomobile

@@ -1,0 +1,12 @@
+name: java-jsog.yaml
+filetype: (jsp$|java$)
+target: line echo name: jsog
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jsog
+tags:
+- value: jsog
+patterns:
+- value: jsog

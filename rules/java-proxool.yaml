@@ -1,0 +1,12 @@
+name: java-proxool.yaml
+filetype: (jsp$|java$)
+target: line echo name: proxool
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: proxool
+tags:
+- value: proxool
+patterns:
+- value: proxool

@@ -1,0 +1,12 @@
+name: java-nekohtml.yaml
+filetype: (jsp$|java$)
+target: line echo name: nekohtml
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: nekohtml
+tags:
+- value: nekohtml
+patterns:
+- value: nekohtml

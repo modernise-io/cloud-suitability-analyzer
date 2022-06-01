@@ -1,0 +1,12 @@
+name: java-skinny-framework.yaml
+filetype: (jsp$|java$)
+target: line echo name: skinny-framework
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: skinny-framework
+tags:
+- value: skinny-framework
+patterns:
+- value: skinny-framework

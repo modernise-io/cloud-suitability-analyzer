@@ -1,0 +1,12 @@
+name: java-polyforms.yaml
+filetype: (jsp$|java$)
+target: line echo name: polyforms
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: polyforms
+tags:
+- value: polyforms
+patterns:
+- value: polyforms

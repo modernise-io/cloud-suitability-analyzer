@@ -1,0 +1,12 @@
+name: java-uberfire.yaml
+filetype: (jsp$|java$)
+target: line echo name: uberfire
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: uberfire
+tags:
+- value: uberfire
+patterns:
+- value: uberfire

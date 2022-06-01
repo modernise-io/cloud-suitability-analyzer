@@ -1,0 +1,12 @@
+name: java-constretto.yaml
+filetype: (jsp$|java$)
+target: line echo name: constretto
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: constretto
+tags:
+- value: constretto
+patterns:
+- value: constretto

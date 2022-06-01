@@ -1,0 +1,12 @@
+name: java-hibernate.yaml
+filetype: (jsp$|java$)
+target: line echo name: hibernate
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: hibernate
+tags:
+- value: hibernate
+patterns:
+- value: hibernate

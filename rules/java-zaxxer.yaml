@@ -1,0 +1,12 @@
+name: java-zaxxer.yaml
+filetype: (jsp$|java$)
+target: line echo name: zaxxer
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: zaxxer
+tags:
+- value: zaxxer
+patterns:
+- value: zaxxer

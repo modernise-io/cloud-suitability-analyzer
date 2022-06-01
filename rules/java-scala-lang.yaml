@@ -1,0 +1,12 @@
+name: java-scala-lang.yaml
+filetype: (jsp$|java$)
+target: line echo name: scala-lang
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: scala-lang
+tags:
+- value: scala-lang
+patterns:
+- value: scala-lang

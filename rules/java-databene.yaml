@@ -1,0 +1,12 @@
+name: java-databene.yaml
+filetype: (jsp$|java$)
+target: line echo name: databene
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: databene
+tags:
+- value: databene
+patterns:
+- value: databene

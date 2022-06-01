@@ -1,0 +1,12 @@
+name: java-attoparser.yaml
+filetype: (jsp$|java$)
+target: line echo name: attoparser
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: attoparser
+tags:
+- value: attoparser
+patterns:
+- value: attoparser

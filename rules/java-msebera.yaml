@@ -1,0 +1,12 @@
+name: java-msebera.yaml
+filetype: (jsp$|java$)
+target: line echo name: msebera
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: msebera
+tags:
+- value: msebera
+patterns:
+- value: msebera

@@ -1,0 +1,12 @@
+name: java-ciris.yaml
+filetype: (jsp$|java$)
+target: line echo name: ciris
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: ciris
+tags:
+- value: ciris
+patterns:
+- value: ciris

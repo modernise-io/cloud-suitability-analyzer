@@ -1,0 +1,12 @@
+name: java-47deg.yaml
+filetype: (jsp$|java$)
+target: line echo name: 47deg
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: 47deg
+tags:
+- value: 47deg
+patterns:
+- value: 47deg

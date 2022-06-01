@@ -1,0 +1,12 @@
+name: java-sirona.yaml
+filetype: (jsp$|java$)
+target: line echo name: sirona
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: sirona
+tags:
+- value: sirona
+patterns:
+- value: sirona

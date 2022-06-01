@@ -1,0 +1,12 @@
+name: java-trove4j.yaml
+filetype: (jsp$|java$)
+target: line echo name: trove4j
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: trove4j
+tags:
+- value: trove4j
+patterns:
+- value: trove4j

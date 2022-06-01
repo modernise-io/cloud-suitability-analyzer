@@ -1,0 +1,12 @@
+name: java-darwinsys.yaml
+filetype: (jsp$|java$)
+target: line echo name: darwinsys
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: darwinsys
+tags:
+- value: darwinsys
+patterns:
+- value: darwinsys

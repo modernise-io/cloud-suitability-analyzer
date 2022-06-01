@@ -1,0 +1,12 @@
+name: java-metrics4j.yaml
+filetype: (jsp$|java$)
+target: line echo name: metrics4j
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: metrics4j
+tags:
+- value: metrics4j
+patterns:
+- value: metrics4j

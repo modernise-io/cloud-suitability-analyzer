@@ -1,0 +1,12 @@
+name: java-scalaj.yaml
+filetype: (jsp$|java$)
+target: line echo name: scalaj
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: scalaj
+tags:
+- value: scalaj
+patterns:
+- value: scalaj

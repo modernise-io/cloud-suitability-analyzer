@@ -1,0 +1,12 @@
+name: java-outerj.yaml
+filetype: (jsp$|java$)
+target: line echo name: outerj
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: outerj
+tags:
+- value: outerj
+patterns:
+- value: outerj

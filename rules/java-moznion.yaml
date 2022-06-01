@@ -1,0 +1,12 @@
+name: java-moznion.yaml
+filetype: (jsp$|java$)
+target: line echo name: moznion
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: moznion
+tags:
+- value: moznion
+patterns:
+- value: moznion

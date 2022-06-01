@@ -1,0 +1,12 @@
+name: java-aspectj.yaml
+filetype: (jsp$|java$)
+target: line echo name: aspectj
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: aspectj
+tags:
+- value: aspectj
+patterns:
+- value: aspectj

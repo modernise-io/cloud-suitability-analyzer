@@ -1,0 +1,12 @@
+name: java-openbouquet.yaml
+filetype: (jsp$|java$)
+target: line echo name: openbouquet
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: openbouquet
+tags:
+- value: openbouquet
+patterns:
+- value: openbouquet

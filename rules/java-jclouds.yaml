@@ -1,0 +1,12 @@
+name: java-jclouds.yaml
+filetype: (jsp$|java$)
+target: line echo name: jclouds
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jclouds
+tags:
+- value: jclouds
+patterns:
+- value: jclouds

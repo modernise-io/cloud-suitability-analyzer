@@ -1,0 +1,12 @@
+name: java-zwitserloot.yaml
+filetype: (jsp$|java$)
+target: line echo name: zwitserloot
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: zwitserloot
+tags:
+- value: zwitserloot
+patterns:
+- value: zwitserloot

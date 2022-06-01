@@ -1,0 +1,12 @@
+name: java-proofpoint.yaml
+filetype: (jsp$|java$)
+target: line echo name: proofpoint
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: proofpoint
+tags:
+- value: proofpoint
+patterns:
+- value: proofpoint

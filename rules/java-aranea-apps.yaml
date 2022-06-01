@@ -1,0 +1,12 @@
+name: java-aranea-apps.yaml
+filetype: (jsp$|java$)
+target: line echo name: aranea-apps
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: aranea-apps
+tags:
+- value: aranea-apps
+patterns:
+- value: aranea-apps

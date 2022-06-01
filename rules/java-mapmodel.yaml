@@ -1,0 +1,12 @@
+name: java-mapmodel.yaml
+filetype: (jsp$|java$)
+target: line echo name: mapmodel
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: mapmodel
+tags:
+- value: mapmodel
+patterns:
+- value: mapmodel

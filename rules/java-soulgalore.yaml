@@ -1,0 +1,12 @@
+name: java-soulgalore.yaml
+filetype: (jsp$|java$)
+target: line echo name: soulgalore
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: soulgalore
+tags:
+- value: soulgalore
+patterns:
+- value: soulgalore

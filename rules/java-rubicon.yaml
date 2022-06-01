@@ -1,0 +1,12 @@
+name: java-rubicon.yaml
+filetype: (jsp$|java$)
+target: line echo name: rubicon
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: rubicon
+tags:
+- value: rubicon
+patterns:
+- value: rubicon

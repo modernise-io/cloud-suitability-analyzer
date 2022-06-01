@@ -1,0 +1,12 @@
+name: java-ning.yaml
+filetype: (jsp$|java$)
+target: line echo name: ning
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: ning
+tags:
+- value: ning
+patterns:
+- value: ning

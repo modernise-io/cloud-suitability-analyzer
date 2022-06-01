@@ -1,0 +1,12 @@
+name: java-baracus.yaml
+filetype: (jsp$|java$)
+target: line echo name: baracus
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: baracus
+tags:
+- value: baracus
+patterns:
+- value: baracus

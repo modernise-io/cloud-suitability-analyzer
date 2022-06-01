@@ -1,0 +1,12 @@
+name: java-jentz.yaml
+filetype: (jsp$|java$)
+target: line echo name: jentz
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jentz
+tags:
+- value: jentz
+patterns:
+- value: jentz

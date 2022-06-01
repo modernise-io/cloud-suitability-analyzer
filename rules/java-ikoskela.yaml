@@ -1,0 +1,12 @@
+name: java-ikoskela.yaml
+filetype: (jsp$|java$)
+target: line echo name: ikoskela
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: ikoskela
+tags:
+- value: ikoskela
+patterns:
+- value: ikoskela

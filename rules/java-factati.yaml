@@ -1,0 +1,12 @@
+name: java-factati.yaml
+filetype: (jsp$|java$)
+target: line echo name: factati
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: factati
+tags:
+- value: factati
+patterns:
+- value: factati

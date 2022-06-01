@@ -1,0 +1,12 @@
+name: java-lihaoyi.yaml
+filetype: (jsp$|java$)
+target: line echo name: lihaoyi
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: lihaoyi
+tags:
+- value: lihaoyi
+patterns:
+- value: lihaoyi

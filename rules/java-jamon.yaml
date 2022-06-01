@@ -1,0 +1,12 @@
+name: java-jamon.yaml
+filetype: (jsp$|java$)
+target: line echo name: jamon
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: jamon
+tags:
+- value: jamon
+patterns:
+- value: jamon

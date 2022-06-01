@@ -1,0 +1,12 @@
+name: java-solarmosaic.yaml
+filetype: (jsp$|java$)
+target: line echo name: solarmosaic
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: solarmosaic
+tags:
+- value: solarmosaic
+patterns:
+- value: solarmosaic

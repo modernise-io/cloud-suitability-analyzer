@@ -1,0 +1,12 @@
+name: java-sejda.yaml
+filetype: (jsp$|java$)
+target: line echo name: sejda
+filetype: (jsp$|java$)
+type: regex
+defaultpattern: ^.*import(\s*|=)%s.*$
+advice: Consult 3rd party documentation
+category: sejda
+tags:
+- value: sejda
+patterns:
+- value: sejda
