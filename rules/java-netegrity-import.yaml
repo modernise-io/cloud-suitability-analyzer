@@ -1,4 +1,4 @@
-name: java-3rdPartySecurity-import
+name: java-netegrity-import
 filetype: (jsp$|java$)
 target: line
 type: regex
@@ -12,11 +12,7 @@ tags:
 patterns:
 - value: com.netegrity.policyserver.smapi
 - value: com.netegrity.sdk.apiutil
-- value: com.ibm.tspm
-- value: com.oblix.access
 - value: com.netegrity.sdk.imspolicyapi
 - value: com.netegrity.sdk.policyapi
 - value: netegrity.siteminder.javaagent
-- value: com.rsa
-- value: com.oracle.am.asdk
 - value: com.netegrity.sdk.dmsapi

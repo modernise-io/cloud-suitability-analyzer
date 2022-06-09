@@ -5,7 +5,7 @@
 package model
 
 //Created By BootstrapBinsTemplate.txt found under go/resources folder
-//Created @ 2022-04-26 11:52:41.601931638 -0500 CDT m=+0.086639438
+//Created @ 2022-06-09 18:30:11.504332135 -0500 CDT m=+0.140606043
 
 func BootstrapBins() []Bin {
     var BootstrapBins = []Bin{
@@ -57,7 +57,7 @@ func BootstrapBins() []Bin {
         
             { Name: "Thick Java Clients",
             Tags:
-            []*BinTag{  { Name: "fat-client", Type: 1, Action: "OR", },  },
+            []*BinTag{  { Name: "desktop-client", Type: 1, Action: "OR", },  },
              },
         
             { Name: "Caching",

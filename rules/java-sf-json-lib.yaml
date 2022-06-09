@@ -1,13 +1,12 @@
-name: java-bsc.framework
+name: java-sf-json-lib
 filetype: (jsp$|java$)
 target: line
-name: bsc.framework
 type: regex
 defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
-category: bsc.framework
+category: sf.json-lib
 tags:
-- value: bsc.framework
+- value: sf.json-lib
 patterns:
-- value: bsc.framework
-#- import com.bsc.framework
+- value: sf.json-lib
+#- import com.sf.json-lib

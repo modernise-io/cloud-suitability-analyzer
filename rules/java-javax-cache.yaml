@@ -1,4 +1,4 @@
-name: java-jboss-ha-cachemanager
+name: java-javax-cache
 filetype: (jsp$|java$)
 target: line
 type: regex

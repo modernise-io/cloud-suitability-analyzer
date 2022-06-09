@@ -1,4 +1,4 @@
-name: java-3rdPartySecurity-import
+name: java-rsa-security-import
 filetype: (jsp$|java$)
 target: line
 type: regex
@@ -9,19 +9,6 @@ readiness: 10
 category: security
 tags:
 - value: security
-patterns:
-- value: com.netegrity.policyserver.smapi
-- value: com.netegrity.sdk.apiutil
-  tag: netegrity
-- value: com.ibm.tspm
-  tag: ibm-tspm
-- value: com.oblix.access
-  tag: oblix
-- value: com.netegrity.sdk.dmsapi
-- value: com.netegrity.sdk.imspolicyapi
-- value: com.netegrity.sdk.policyapi
-- value: netegrity.siteminder.javaagent
-  tag: netegrity
 - value: com.rsa
-- value: com.oracle.am.asdk
-  tag: oracle-asdk
+patterns:
+- value: com.rsa

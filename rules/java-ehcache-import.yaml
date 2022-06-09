@@ -1,4 +1,4 @@
-name: java-cache-dist-import
+name: java-ehcache-import
 filetype: (jsp$|java$)
 target: line
 type: regex
