@@ -11,7 +11,7 @@ defaultpattern: ^\s*@%s
 category: ejb
 tags:
   - value: remote-ejb
- atterns:
+patterns:
   - value: RemoteHome
     tag: remote
   - value: EJBObject

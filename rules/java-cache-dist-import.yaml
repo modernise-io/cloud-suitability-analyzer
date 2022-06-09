@@ -9,7 +9,7 @@ readiness: 10
 category: distcache
 tags:
   - value: distcache
- atterns:
+patterns:
   - value: org.ehcache #--- dist
   - value: com.hazelcast #--- dist
   - value: org.apache.ignite #--- dist

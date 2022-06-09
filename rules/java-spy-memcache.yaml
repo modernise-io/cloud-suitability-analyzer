@@ -10,5 +10,5 @@ category: distcache
 tags:
   - value: distcache
   - value: spy-memcached
- patterns:
+patterns:
   - value: net.spy.memcached #--- dist

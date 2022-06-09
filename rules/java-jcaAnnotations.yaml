@@ -11,7 +11,7 @@ effort: 100
 readiness: 7
 tags:
   - value: jca
- patterns:
+patterns:
   - value: AdministeredObjectDefinition
   - value: ConnectionFactoryDefinition
   - value: ConnectionFactoryDefinitions
