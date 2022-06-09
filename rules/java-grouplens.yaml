@@ -1,12 +1,13 @@
-name: java-grouplens.yaml
+name: java-grouplens
 filetype: (jsp$|java$)
-target: line echo name: grouplens
-filetype: (jsp$|java$)
+target: line
+name: grouplens
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: grouplens
 tags:
 - value: grouplens
 patterns:
 - value: grouplens
+#- import com.grouplens

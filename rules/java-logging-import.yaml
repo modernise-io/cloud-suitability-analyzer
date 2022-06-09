@@ -8,13 +8,10 @@ effort: 3
 readiness: 5
 category: logging
 tags:
-  - value: imports
-  - value: third-party
-  - value: api
   - value: logging
 patterns:
   - value: java.util.logging
-    tag: java-util
+    tag: java-logging
   - value: org.apache.log4j
     tag: log4j
   - value: org.apache.commons.logging

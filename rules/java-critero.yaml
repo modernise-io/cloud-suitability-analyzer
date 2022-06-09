@@ -1,12 +1,13 @@
-name: java-critero.yaml
+name: java-critero
 filetype: (jsp$|java$)
-target: line echo name: critero
-filetype: (jsp$|java$)
+target: line
+name: critero
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: critero
 tags:
 - value: critero
 patterns:
 - value: critero
+#- import com.critero

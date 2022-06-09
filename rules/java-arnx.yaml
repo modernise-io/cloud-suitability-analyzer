@@ -1,12 +1,13 @@
-name: java-arnx.yaml
+name: java-arnx
 filetype: (jsp$|java$)
-target: line echo name: arnx
-filetype: (jsp$|java$)
+target: line
+name: arnx
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: arnx
 tags:
 - value: arnx
 patterns:
 - value: arnx
+#- import com.arnx

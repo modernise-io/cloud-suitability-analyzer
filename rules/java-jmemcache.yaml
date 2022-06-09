@@ -1,12 +1,13 @@
-name: java-jmemcache.yaml
+name: java-jmemcache
 filetype: (jsp$|java$)
-target: line echo name: jmemcache
-filetype: (jsp$|java$)
+target: line
+name: jmemcache
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jmemcache
 tags:
 - value: jmemcache
 patterns:
 - value: jmemcache
+#- import com.jmemcache

@@ -23,12 +23,12 @@ patterns:
 - value: MapEvictionPolicy
 - value: newHazelcastInstance
 
-##  HazelcastInstance(
-##  NearCacheClientSupport(
-##  Hazelcast(
-##  QueryCacheConfig(
-##  HazelcastClient(
-##  newHazelcastClient(
-##  setMapEvictionPolicy(
-##  MapEvictionPolicy(
-##  newHazelcastInstance(
+#-  HazelcastInstance(
+#-  NearCacheClientSupport(
+#-  Hazelcast(
+#-  QueryCacheConfig(
+#-  HazelcastClient(
+#-  newHazelcastClient(
+#-  setMapEvictionPolicy(
+#-  MapEvictionPolicy(
+#-  newHazelcastInstance(

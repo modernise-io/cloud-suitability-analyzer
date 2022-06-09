@@ -13,3 +13,4 @@ recipes:
 patterns:
 - value: sqlite
 - value: SqliteDatabase
+#C2R

@@ -1,12 +1,13 @@
-name: java-ow2.yaml
+name: java-ow2
 filetype: (jsp$|java$)
-target: line echo name: ow2
-filetype: (jsp$|java$)
+target: line
+name: ow2
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: ow2
 tags:
 - value: ow2
 patterns:
 - value: ow2
+#- import com.ow2

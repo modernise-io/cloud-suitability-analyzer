@@ -1,12 +1,13 @@
-name: java-ujorm.yaml
+name: java-ujorm
 filetype: (jsp$|java$)
-target: line echo name: ujorm
-filetype: (jsp$|java$)
+target: line
+name: ujorm
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: ujorm
 tags:
 - value: ujorm
 patterns:
 - value: ujorm
+#- import com.ujorm

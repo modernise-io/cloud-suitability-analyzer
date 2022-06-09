@@ -10,11 +10,8 @@ category: ejb
 tags:
 - value: stateful
 - value: ejb
-- value: javaee
-- value: api
-- value: ejbcontainer
 patterns:
 - value: Stateful
 - value: StatefulTimeout
-##@Stateful
-##@StatefulTimeout
+#- @Stateful
+#- @StatefulTimeout

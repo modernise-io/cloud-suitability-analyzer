@@ -1,12 +1,13 @@
-name: java-powermock.yaml
+name: java-powermock
 filetype: (jsp$|java$)
-target: line echo name: powermock
-filetype: (jsp$|java$)
+target: line
+name: powermock
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: powermock
 tags:
 - value: powermock
 patterns:
 - value: powermock
+#- import com.powermock

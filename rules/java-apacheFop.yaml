@@ -1,16 +1,14 @@
-name: java-apacheFop-import
+name: java-apacheFop
 filetype: java$
 target: line
 type: regex
 defaultpattern: "[ .]%s[ .({]"
 effort: 5
 readiness: 10
-advice: Usage requires configuration remdiation
-category: thirdParty
+advice: Usage requires configuration remediation
+category: apache-fop
 tags:
-  - value: third-party
-  - value: api
-  - value: fop
+  - value: apache-fop
 patterns:
   - value: FopFactory
   - value: Fop
@@ -19,10 +17,10 @@ patterns:
   - value: setTargetResolution
   - value: setDocumentHandlerOverride
   - value: setFOEventHandlerOverride
-## FopFactory(
-## Fop(
-## FopFactoryBuilder(
-## FOUserAgent(
-## setTargetResolution(
-## setDocumentHandlerOverride(
-## setFOEventHandlerOverride(
+#- FopFactory(
+#- Fop(
+#- FopFactoryBuilder(
+#- FOUserAgent(
+#- setTargetResolution(
+#- setDocumentHandlerOverride(
+#- setFOEventHandlerOverride(

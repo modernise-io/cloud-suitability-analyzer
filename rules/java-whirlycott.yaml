@@ -1,12 +1,13 @@
-name: java-whirlycott.yaml
+name: java-whirlycott
 filetype: (jsp$|java$)
-target: line echo name: whirlycott
-filetype: (jsp$|java$)
+target: line
+name: whirlycott
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: whirlycott
 tags:
 - value: whirlycott
 patterns:
 - value: whirlycott
+#- import com.whirlycott

@@ -8,7 +8,6 @@ readiness: 7
 advice: Consult with TAS documetation for configuration or use TKG
 category: jca
 tags:
-  - value: api
   - value: jca
   - value: resource-adapter
 patterns:
@@ -25,14 +24,14 @@ patterns:
   - value: supportsLocalTransactionDemarcation
 #TODO Add import javax.resource.cci effort 100
 
-##  createInteraction(
-##  getEISProductName(
-##  getEISProductVersion(
-##  getAdapterName(
-##  getAdapterShortDescription(
-##  getAdapterVersion(
-##  getInteractionSpecsSupported(
-##  getSpecVersion(
-##  supportsExecuteWithInputAndOutputRecord(
-##  supportsExecuteWithInputRecordOnly(
-##  supportsLocalTransactionDemarcation(
+#-  createInteraction(
+#-  getEISProductName(
+#-  getEISProductVersion(
+#-  getAdapterName(
+#-  getAdapterShortDescription(
+#-  getAdapterVersion(
+#-  getInteractionSpecsSupported(
+#-  getSpecVersion(
+#-  supportsExecuteWithInputAndOutputRecord(
+#-  supportsExecuteWithInputRecordOnly(
+#-  supportsLocalTransactionDemarcation(

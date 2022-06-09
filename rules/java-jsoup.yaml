@@ -1,12 +1,13 @@
-name: java-jsoup.yaml
+name: java-jsoup
 filetype: (jsp$|java$)
-target: line echo name: jsoup
-filetype: (jsp$|java$)
+target: line
+name: jsoup
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jsoup
 tags:
 - value: jsoup
 patterns:
 - value: jsoup
+#- import com.jsoup

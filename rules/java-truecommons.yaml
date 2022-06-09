@@ -1,12 +1,13 @@
-name: java-truecommons.yaml
+name: java-truecommons
 filetype: (jsp$|java$)
-target: line echo name: truecommons
-filetype: (jsp$|java$)
+target: line
+name: truecommons
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: truecommons
 tags:
 - value: truecommons
 patterns:
 - value: truecommons
+#- import com.truecommons

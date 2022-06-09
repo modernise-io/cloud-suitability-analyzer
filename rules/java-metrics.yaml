@@ -12,7 +12,13 @@ tags:
   - value: metrics
 patterns:
   - value: io.micrometer
+    tag: micrometer
   - value: javax.management
+    tag: javax.management
   - value: io.dropwizard
+    tag: dropwizird
   - value: com.netuitive.ananke
+    tag: netuitive
   - value: edu.iris.dmc
+    tag: iris.dmc
+

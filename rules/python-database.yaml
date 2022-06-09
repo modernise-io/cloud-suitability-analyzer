@@ -12,6 +12,11 @@ recipes:
 - uri: https://app-transformation-cookbook-internal.cfapps.io/backing-services-port-binding/persistence/
 patterns:
 - value: mysql
+  tag: mysql
 - value: MySQL
+  tag: mysql
 - value: aiomysql
+  tag: aiomysql
 - value: import peewee
+  tag: peewee
+  #C2R

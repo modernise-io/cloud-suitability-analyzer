@@ -1,12 +1,13 @@
-name: java-lambdista.yaml
+name: java-lambdista
 filetype: (jsp$|java$)
-target: line echo name: lambdista
-filetype: (jsp$|java$)
+target: line
+name: lambdista
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: lambdista
 tags:
 - value: lambdista
 patterns:
 - value: lambdista
+#- import com.lambdista

@@ -1,12 +1,13 @@
-name: java-htmlcleaner.yaml
+name: java-htmlcleaner
 filetype: (jsp$|java$)
-target: line echo name: htmlcleaner
-filetype: (jsp$|java$)
+target: line
+name: htmlcleaner
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: htmlcleaner
 tags:
 - value: htmlcleaner
 patterns:
 - value: htmlcleaner
+#- import com.htmlcleaner

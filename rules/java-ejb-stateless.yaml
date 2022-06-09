@@ -34,25 +34,19 @@ patterns:
   - value: TimerService
   - value: RMISecurityManager
   - value: RemoteException
-  ##- value: MarshalException - common name for exceptions used by serializers!
   - value: PortableRemoteObject
   - value: exportObject
   - value: unexportObject
   - value: AccessException
   - value: AlreadyBoundException
-  ##- value: ConnectException -part of java.net.*
   - value: ConnectIOException
-  ##- value: MarshalException
   - value: NoSuchObjectException
   - value: NotBoundException
   - value: RemoteException
   - value: RMISecurityException
-  ##- value: ServerError
-  ##- value: ServerException
   - value: ServerRuntimeException
   - value: StubNotFoundException
   - value: UnexpectedException
-  ## - value: UnknownHostException -part of java.net.*
   - value: UnmarshalException
   - value: ActivationInstantiator
   - value: ActivationMonitor
@@ -74,7 +68,6 @@ patterns:
   - value: RMIServerSocketFactory
   - value: LogStream
   - value: ObjID
-  ## - value: Operation
   - value: RemoteObject
   - value: RemoteObjectInvocationHandler
   - value: RemoteServer
@@ -83,74 +76,74 @@ patterns:
   - value: RMIClassLoaderSpi
   - value: RMISocketFactory
   - value: UnicastRemoteObject
-##  EJBContext(
-##  EJBHome(
-##  EJBLocalHome(
-##  EJBLocalObject(
-##  EJBMetaData(
-##  EJBObject(
-##  EnterpriseBean(
-##  EntityBean(
-##  EntityContext(
-##  HomeHandle(
-##  MessageDrivenBean(
-##  MessageDrivenContext(
-##  SessionBean(
-##  SessionContext(
-##  SessionSynchronization(
-##  TimedObject(
-##  Timer(
-##  TimerHandle(
-##  TimerService(
-##  RMISecurityManager(
-##  RemoteException(
-##  MarshalException(
-##  PortableRemoteObject(
-##  exportObject(
-##  unexportObject(
-##  AccessException(
-##  AlreadyBoundException(
-##  ConnectException(
-##  ConnectIOException(
-##  MarshalException(
-##  NoSuchObjectException(
-##  NotBoundException(
-##  RemoteException(
-##  RMISecurityException(
-##  ServerError(
-##  ServerException(
-##  ServerRuntimeException(
-##  StubNotFoundException(
-##  UnexpectedException(
-##  UnknownHostException(
-##  UnmarshalException(
-##  ActivationInstantiator(
-##  ActivationMonitor(
-##  ActivationSystem(
-##  Activatable(
-##  ActivationDesc(
-##  ActivationGroup(
-##  ActivationGroup_Stub(
-##  ActivationGroupDesc(
-##  ActivationGroupDesc.CommandEnvironment(
-##  ActivationGroupID(
-##  ActivationID(
-##  LocateRegistry(
-##  LoaderHandler(
-##  RemoteCall(
-##  RemoteRef(
-##  RMIClientSocketFactory(
-##  RMIFailureHandler(
-##  RMIServerSocketFactory(
-##  LogStream(
-##  ObjID(
-##  Operation(
-##  RemoteObject(
-##  RemoteObjectInvocationHandler(
-##  RemoteServer(
-##  RemoteStub(
-##  RMIClassLoader(
-##  RMIClassLoaderSpi(
-##  RMISocketFactory(
-##  UID(
-##  UnicastRemoteObject(
+#-  EJBContext(
+#-  EJBHome(
+#-  EJBLocalHome(
+#-  EJBLocalObject(
+#-  EJBMetaData(
+#-  EJBObject(
+#-  EnterpriseBean(
+#-  EntityBean(
+#-  EntityContext(
+#-  HomeHandle(
+#-  MessageDrivenBean(
+#-  MessageDrivenContext(
+#-  SessionBean(
+#-  SessionContext(
+#-  SessionSynchronization(
+#-  TimedObject(
+#-  Timer(
+#-  TimerHandle(
+#-  TimerService(
+#-  RMISecurityManager(
+#-  RemoteException(
+#-  MarshalException(
+#-  PortableRemoteObject(
+#-  exportObject(
+#-  unexportObject(
+#-  AccessException(
+#-  AlreadyBoundException(
+#-  ConnectException(
+#-  ConnectIOException(
+#-  MarshalException(
+#-  NoSuchObjectException(
+#-  NotBoundException(
+#-  RemoteException(
+#-  RMISecurityException(
+#-  ServerError(
+#-  ServerException(
+#-  ServerRuntimeException(
+#-  StubNotFoundException(
+#-  UnexpectedException(
+#-  UnknownHostException(
+#-  UnmarshalException(
+#-  ActivationInstantiator(
+#-  ActivationMonitor(
+#-  ActivationSystem(
+#-  Activatable(
+#-  ActivationDesc(
+#-  ActivationGroup(
+#-  ActivationGroup_Stub(
+#-  ActivationGroupDesc(
+#-  ActivationGroupDesc.CommandEnvironment(
+#-  ActivationGroupID(
+#-  ActivationID(
+#-  LocateRegistry(
+#-  LoaderHandler(
+#-  RemoteCall(
+#-  RemoteRef(
+#-  RMIClientSocketFactory(
+#-  RMIFailureHandler(
+#-  RMIServerSocketFactory(
+#-  LogStream(
+#-  ObjID(
+#-  Operation(
+#-  RemoteObject(
+#-  RemoteObjectInvocationHandler(
+#-  RemoteServer(
+#-  RemoteStub(
+#-  RMIClassLoader(
+#-  RMIClassLoaderSpi(
+#-  RMISocketFactory(
+#-  UID(
+#-  UnicastRemoteObject(

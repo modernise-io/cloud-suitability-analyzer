@@ -11,3 +11,4 @@ tags:
 - value: database
 patterns:
 - value: /configuration/connectionStrings[1]
+#OK

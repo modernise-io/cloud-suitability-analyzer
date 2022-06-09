@@ -1,12 +1,13 @@
-name: java-usikkert.yaml
+name: java-usikkert
 filetype: (jsp$|java$)
-target: line echo name: usikkert
-filetype: (jsp$|java$)
+target: line
+name: usikkert
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: usikkert
 tags:
 - value: usikkert
 patterns:
 - value: usikkert
+#- import com.usikkert

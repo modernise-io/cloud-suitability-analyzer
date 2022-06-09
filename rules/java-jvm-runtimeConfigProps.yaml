@@ -9,13 +9,12 @@ readiness: 0
 category: config
 tags:
 - value: config
-- value: api
-- value: jvm
 - value: javax
 patterns:
 - value: javax.xml.soap.SOAPFactory
 - value: javax.xml.parsers.DocumentBuilderFactory
 - value: javax.xml.parsers.SAXParserFactory
+#C2R
 
 
 ##javax.net.ssl.keyStore

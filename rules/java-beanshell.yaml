@@ -1,12 +1,13 @@
-name: java-beanshell.yaml
+name: java-beanshell
 filetype: (jsp$|java$)
-target: line echo name: beanshell
-filetype: (jsp$|java$)
+target: line
+name: beanshell
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: beanshell
 tags:
 - value: beanshell
 patterns:
 - value: beanshell
+#- import com.beanshell

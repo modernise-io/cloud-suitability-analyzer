@@ -1,12 +1,13 @@
-name: java-polyjmodelc.yaml
+name: java-polyjmodelc
 filetype: (jsp$|java$)
-target: line echo name: polyjmodelc
-filetype: (jsp$|java$)
+target: line
+name: polyjmodelc
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: polyjmodelc
 tags:
 - value: polyjmodelc
 patterns:
 - value: polyjmodelc
+#- import com.polyjmodelc

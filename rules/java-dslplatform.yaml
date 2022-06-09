@@ -1,12 +1,13 @@
-name: java-dslplatform.yaml
+name: java-dslplatform
 filetype: (jsp$|java$)
-target: line echo name: dslplatform
-filetype: (jsp$|java$)
+target: line
+name: dslplatform
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: dslplatform
 tags:
 - value: dslplatform
 patterns:
 - value: dslplatform
+#- import com.dslplatform

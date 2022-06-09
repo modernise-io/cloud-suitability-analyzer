@@ -1,4 +1,3 @@
-#qc1
 name: dotnet-MSMQ-vbcs
 filetype: (cs$|vb$)
 target: line
@@ -7,8 +6,11 @@ category: Unsupported modules
 advice: Refer to platform documentation
 effort: 10
 readiness: 1
+tags:
+- value: message-queue
 patterns:
 - value: MessageQueue
 - value: using System.Messaging
 ## MessageQueue
 ## using System.Messaging
+#C2R

@@ -1,12 +1,13 @@
-name: java-easygson.yaml
+name: java-easygson
 filetype: (jsp$|java$)
-target: line echo name: easygson
-filetype: (jsp$|java$)
+target: line
+name: easygson
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: easygson
 tags:
 - value: easygson
 patterns:
 - value: easygson
+#- import com.easygson

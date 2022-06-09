@@ -1,12 +1,13 @@
-name: java-sorm-framework.yaml
+name: java-sorm-framework
 filetype: (jsp$|java$)
-target: line echo name: sorm-framework
-filetype: (jsp$|java$)
+target: line
+name: sorm-framework
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: sorm-framework
 tags:
 - value: sorm-framework
 patterns:
 - value: sorm-framework
+#- import com.sorm-framework

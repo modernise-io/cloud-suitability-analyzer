@@ -1,12 +1,13 @@
-name: java-vertx.yaml
+name: java-vertx
 filetype: (jsp$|java$)
-target: line echo name: vertx
-filetype: (jsp$|java$)
+target: line
+name: vertx
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: vertx
 tags:
 - value: vertx
 patterns:
 - value: vertx
+#- import com.vertx

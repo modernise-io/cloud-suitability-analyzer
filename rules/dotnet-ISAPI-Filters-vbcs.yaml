@@ -8,4 +8,4 @@ effort: 1000
 readiness: 0
 patterns:
 - value: GetSection(system.webServer/isapiFilters)
-## GetSection(system.webServer/isapiFilters)
+#C2R

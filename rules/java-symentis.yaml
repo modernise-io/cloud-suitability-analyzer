@@ -1,12 +1,13 @@
-name: java-symentis.yaml
+name: java-symentis
 filetype: (jsp$|java$)
-target: line echo name: symentis
-filetype: (jsp$|java$)
+target: line
+name: symentis
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: symentis
 tags:
 - value: symentis
 patterns:
 - value: symentis
+#- import com.symentis

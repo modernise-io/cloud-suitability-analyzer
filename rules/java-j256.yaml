@@ -1,12 +1,13 @@
-name: java-j256.yaml
+name: java-j256
 filetype: (jsp$|java$)
-target: line echo name: j256
-filetype: (jsp$|java$)
+target: line
+name: j256
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: j256
 tags:
 - value: j256
 patterns:
 - value: j256
+#- import com.j256

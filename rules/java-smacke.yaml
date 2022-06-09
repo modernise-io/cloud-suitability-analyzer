@@ -1,12 +1,13 @@
-name: java-smacke.yaml
+name: java-smacke
 filetype: (jsp$|java$)
-target: line echo name: smacke
-filetype: (jsp$|java$)
+target: line
+name: smacke
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: smacke
 tags:
 - value: smacke
 patterns:
 - value: smacke
+#- import com.smacke

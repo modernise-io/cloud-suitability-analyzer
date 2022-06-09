@@ -1,12 +1,13 @@
-name: java-tophe.yaml
+name: java-tophe
 filetype: (jsp$|java$)
-target: line echo name: tophe
-filetype: (jsp$|java$)
+target: line
+name: tophe
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: tophe
 tags:
 - value: tophe
 patterns:
 - value: tophe
+#- import com.tophe

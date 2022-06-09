@@ -1,12 +1,13 @@
-name: java-intarsys.yaml
+name: java-intarsys
 filetype: (jsp$|java$)
-target: line echo name: intarsys
-filetype: (jsp$|java$)
+target: line
+name: intarsys
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: intarsys
 tags:
 - value: intarsys
 patterns:
 - value: intarsys
+#- import com.intarsys

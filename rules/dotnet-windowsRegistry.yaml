@@ -8,10 +8,8 @@ effort: 100
 readiness: 2
 category: AccessingRegistry
 tags:
-- value: api
+- value: windows-registry
 patterns:
 - value: RegistryKey
 - value: Registry
-
-## RegistryKey
-## Registry
+#OK

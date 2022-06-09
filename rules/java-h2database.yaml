@@ -1,12 +1,13 @@
-name: java-h2database.yaml
+name: java-h2database
 filetype: (jsp$|java$)
-target: line echo name: h2database
-filetype: (jsp$|java$)
+target: line
+name: h2database
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: h2database
 tags:
 - value: h2database
 patterns:
 - value: h2database
+#- import com.h2database

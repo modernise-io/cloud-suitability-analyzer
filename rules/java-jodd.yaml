@@ -1,12 +1,13 @@
-name: java-jodd.yaml
+name: java-jodd
 filetype: (jsp$|java$)
-target: line echo name: jodd
-filetype: (jsp$|java$)
+target: line
+name: jodd
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jodd
 tags:
 - value: jodd
 patterns:
 - value: jodd
+#- import com.jodd

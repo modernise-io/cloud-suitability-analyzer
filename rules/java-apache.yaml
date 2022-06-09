@@ -1,12 +1,13 @@
-name: java-apache.yaml
+name: java-apache
 filetype: (jsp$|java$)
-target: line echo name: apache
-filetype: (jsp$|java$)
+target: line
+name: apache
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: apache
 tags:
 - value: apache
 patterns:
 - value: apache
+#- import com.apache

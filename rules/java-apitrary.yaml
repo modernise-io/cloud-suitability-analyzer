@@ -1,12 +1,13 @@
-name: java-apitrary.yaml
+name: java-apitrary
 filetype: (jsp$|java$)
-target: line echo name: apitrary
-filetype: (jsp$|java$)
+target: line
+name: apitrary
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: apitrary
 tags:
 - value: apitrary
 patterns:
 - value: apitrary
+#- import com.apitrary

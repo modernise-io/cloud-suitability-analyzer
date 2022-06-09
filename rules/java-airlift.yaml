@@ -1,12 +1,13 @@
-name: java-airlift.yaml
+name: java-airlift
 filetype: (jsp$|java$)
-target: line echo name: airlift
-filetype: (jsp$|java$)
+target: line
+name: airlift
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: airlift
 tags:
 - value: airlift
 patterns:
 - value: airlift
+#- import com.airlift

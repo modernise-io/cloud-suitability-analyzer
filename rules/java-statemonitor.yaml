@@ -1,12 +1,13 @@
-name: java-statemonitor.yaml
+name: java-statemonitor
 filetype: (jsp$|java$)
-target: line echo name: statemonitor
-filetype: (jsp$|java$)
+target: line
+name: statemonitor
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: statemonitor
 tags:
 - value: statemonitor
 patterns:
 - value: statemonitor
+#- import com.statemonitor

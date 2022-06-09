@@ -1,12 +1,13 @@
-name: java-jboss-cache.yaml
+name: java-jboss-cache
 filetype: (jsp$|java$)
-target: line echo name: jboss-cache
-filetype: (jsp$|java$)
+target: line
+name: jboss-cache
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jboss-cache
 tags:
 - value: jboss-cache
 patterns:
 - value: jboss-cache
+#- import com.jboss-cache

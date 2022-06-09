@@ -1,12 +1,13 @@
-name: java-hmil.yaml
+name: java-hmil
 filetype: (jsp$|java$)
-target: line echo name: hmil
-filetype: (jsp$|java$)
+target: line
+name: hmil
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: hmil
 tags:
 - value: hmil
 patterns:
 - value: hmil
+#- import com.hmil

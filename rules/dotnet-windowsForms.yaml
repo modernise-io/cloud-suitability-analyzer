@@ -5,7 +5,10 @@ type: contains
 advice: Windows Forms module is not supported. Refactor to a web application.
 effort: 10
 readiness: 5
+tags:
+- value: windows-form
 category: Unsupported modules
 patterns:
 - value: System.Windows.Forms
   advice: Windows Forms module is not supported. Refactor to a web application.
+#C2R

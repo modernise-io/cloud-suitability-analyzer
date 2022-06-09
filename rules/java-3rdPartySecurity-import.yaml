@@ -8,9 +8,7 @@ effort: 7
 readiness: 10
 category: security
 tags:
-- value: third-party
 - value: security
-- value: api
 patterns:
 - value: com.netegrity.policyserver.smapi
 - value: com.netegrity.sdk.apiutil
@@ -22,3 +20,4 @@ patterns:
 - value: com.rsa
 - value: com.oracle.am.asdk
 - value: com.netegrity.sdk.dmsapi
+#Remove

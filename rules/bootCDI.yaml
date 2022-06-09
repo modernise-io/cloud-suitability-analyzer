@@ -16,3 +16,4 @@ patterns:
   - value: jboss-ejb-api_3.0_spec
   - value: jboss-ejb-api_3.1_spec
   - value: jboss-ejb-api_3.2_spec
+  #C2R

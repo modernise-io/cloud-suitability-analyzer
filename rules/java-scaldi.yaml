@@ -1,12 +1,13 @@
-name: java-scaldi.yaml
+name: java-scaldi
 filetype: (jsp$|java$)
-target: line echo name: scaldi
-filetype: (jsp$|java$)
+target: line
+name: scaldi
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: scaldi
 tags:
 - value: scaldi
 patterns:
 - value: scaldi
+#- import com.scaldi

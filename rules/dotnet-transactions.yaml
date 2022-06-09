@@ -5,9 +5,10 @@ type: contains
 advice: Potential use of distributed transactions which are unsupported
 readiness: 10
 effort: 100
-category: transactions
+category: transaction
 tags:
-- value: api
+- value: transaction
 patterns:
 - value: TransactionScope
+#C2R
 

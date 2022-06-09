@@ -1,12 +1,13 @@
-name: java-soliveirajr.yaml
+name: java-soliveirajr
 filetype: (jsp$|java$)
-target: line echo name: soliveirajr
-filetype: (jsp$|java$)
+target: line
+name: soliveirajr
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: soliveirajr
 tags:
 - value: soliveirajr
 patterns:
 - value: soliveirajr
+#- import com.soliveirajr

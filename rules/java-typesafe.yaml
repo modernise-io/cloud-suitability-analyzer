@@ -1,12 +1,13 @@
-name: java-typesafe.yaml
+name: java-typesafe
 filetype: (jsp$|java$)
-target: line echo name: typesafe
-filetype: (jsp$|java$)
+target: line
+name: typesafe
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: typesafe
 tags:
 - value: typesafe
 patterns:
 - value: typesafe
+#- import com.typesafe

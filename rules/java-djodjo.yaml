@@ -1,12 +1,13 @@
-name: java-djodjo.yaml
+name: java-djodjo
 filetype: (jsp$|java$)
-target: line echo name: djodjo
-filetype: (jsp$|java$)
+target: line
+name: djodjo
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: djodjo
 tags:
 - value: djodjo
 patterns:
 - value: djodjo
+#- import com.djodjo

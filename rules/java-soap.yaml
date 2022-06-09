@@ -34,24 +34,24 @@ patterns:
   - value: SOAPMessage
   - value: SOAPPart
   - value: SOAPBinding
-##  SOAPBody(
-##  SOAPBodyElement(
-##  SOAPConstants(
-##  SOAPElement(
-##  SOAPEnvelope(
-##  SOAPFault(
-##  SOAPFaultElement(
-##  SOAPHeader(
-##  SOAPHeaderElement(
-##  AttachmentPart(
-##  MessageFactory(
-##  MimeHeader(
-##  MimeHeaders(
-##  SAAJMetaFactory(
-##  SAAJResult(
-##  SOAPConnection(
-##  SOAPConnectionFactory(
-##  SOAPElementFactory(
-##  SOAPFactory(
-##  SOAPMessage(
-##  SOAPPart(
+#-  SOAPBody(
+#-  SOAPBodyElement(
+#-  SOAPConstants(
+#-  SOAPElement(
+#-  SOAPEnvelope(
+#-  SOAPFault(
+#-  SOAPFaultElement(
+#-  SOAPHeader(
+#-  SOAPHeaderElement(
+#-  AttachmentPart(
+#-  MessageFactory(
+#-  MimeHeader(
+#-  MimeHeaders(
+#-  SAAJMetaFactory(
+#-  SAAJResult(
+#-  SOAPConnection(
+#-  SOAPConnectionFactory(
+#-  SOAPElementFactory(
+#-  SOAPFactory(
+#-  SOAPMessage(
+#-  SOAPPart(

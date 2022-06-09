@@ -1,12 +1,13 @@
-name: java-inspiracio.yaml
+name: java-inspiracio
 filetype: (jsp$|java$)
-target: line echo name: inspiracio
-filetype: (jsp$|java$)
+target: line
+name: inspiracio
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: inspiracio
 tags:
 - value: inspiracio
 patterns:
 - value: inspiracio
+#- import com.inspiracio

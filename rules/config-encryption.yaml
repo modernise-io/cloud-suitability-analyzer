@@ -10,3 +10,4 @@ tags:
 - value: config
 patterns:
   - value: //*[@configProtectionProvider][1]
+#OK

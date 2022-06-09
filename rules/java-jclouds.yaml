@@ -1,12 +1,13 @@
-name: java-jclouds.yaml
+name: java-jclouds
 filetype: (jsp$|java$)
-target: line echo name: jclouds
-filetype: (jsp$|java$)
+target: line
+name: jclouds
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jclouds
 tags:
 - value: jclouds
 patterns:
 - value: jclouds
+#- import com.jclouds

@@ -3,24 +3,26 @@ filetype: java$
 target: line
 type: regex
 advice: Remote Method Invocations are not cloud native. Move to cloud friendly alternatives such as REST endpoints.
-defaultpattern: '^.*[ .]%s[ (.].*'
+defaultpattern: "^.*[ .]%s[ (].*"
 effort: 10
 readiness: 6
 category: iop
 tags:
-- value: api
-- value: ejb
 - value: non-standard-protocol
-- value: imports
 - value: corba
 patterns:
-- value: import javax.rmi
-- value: inport org.omg.IOP
+- value: PortableRemoteObject(
+- value: CodecFactory(
+- value: CodecOperations(
+- value: TransactionService(
+- value: ServiceContext(
+- value: TaggedComponent(
+- value: TaggedProfile(
 
-##  PortableRemoteObject(
-##  CodecFactory(
-##  CodecOperations(
-##  TransactionService(
-##  ServiceContext(
-##  TaggedComponent(
-##  TaggedProfile(
+#-  PortableRemoteObject(
+#-  CodecFactory(
+#-  CodecOperations(
+#-  TransactionService(
+#-  ServiceContext(
+#-  TaggedComponent(
+#-  TaggedProfile(

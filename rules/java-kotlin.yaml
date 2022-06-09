@@ -1,12 +1,13 @@
-name: java-kotlin.yaml
+name: java-kotlin
 filetype: (jsp$|java$)
-target: line echo name: kotlin
-filetype: (jsp$|java$)
+target: line
+name: kotlin
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: kotlin
 tags:
 - value: kotlin
 patterns:
 - value: kotlin
+#- import com.kotlin

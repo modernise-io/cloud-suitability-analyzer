@@ -1,12 +1,13 @@
-name: java-codingwell.yaml
+name: java-codingwell
 filetype: (jsp$|java$)
-target: line echo name: codingwell
-filetype: (jsp$|java$)
+target: line
+name: codingwell
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: codingwell
 tags:
 - value: codingwell
 patterns:
 - value: codingwell
+#- import com.codingwell

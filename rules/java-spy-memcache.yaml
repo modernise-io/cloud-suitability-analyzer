@@ -1,0 +1,14 @@
+name: java-spy-memcache
+filetype: (jsp$|java$)
+target: line
+type: regex
+defaultpattern: ^.*import(\s*|=")%s.*$
+advice: Distributed caches must be remediated to function in K8S
+effort: 50
+readiness: 10
+category: distcache
+tags:
+  - value: distcache
+  - value: spy-memcached
+ patterns:
+  - value: net.spy.memcached #--- dist

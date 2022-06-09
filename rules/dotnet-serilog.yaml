@@ -11,3 +11,4 @@ tags:
 patterns:
 - value: Serilog.Sinks
 - value: .UseSerilog()
+#C2R

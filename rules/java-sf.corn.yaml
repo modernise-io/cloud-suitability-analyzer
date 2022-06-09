@@ -1,12 +1,13 @@
-name: java-sf.corn.yaml
+name: java-sf.corn
 filetype: (jsp$|java$)
-target: line echo name: sf.corn
-filetype: (jsp$|java$)
+target: line
+name: sf.corn
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: sf.corn
 tags:
 - value: sf.corn
 patterns:
 - value: sf.corn
+#- import com.sf.corn

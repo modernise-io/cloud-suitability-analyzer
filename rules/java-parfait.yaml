@@ -1,12 +1,13 @@
-name: java-parfait.yaml
+name: java-parfait
 filetype: (jsp$|java$)
-target: line echo name: parfait
-filetype: (jsp$|java$)
+target: line
+name: parfait
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: parfait
 tags:
 - value: parfait
 patterns:
 - value: parfait
+#- import com.parfait

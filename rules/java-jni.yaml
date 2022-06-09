@@ -11,23 +11,12 @@ effort: 1000
 readiness: 7
 category: jni
 tags:
-  - value: api
-  - value: native
   - value: jni
 patterns:
   - value: "public"
   - value: "private"
   - value: "static"
-    #--- below does not work
-    #- value: public native
-    #- value: private native
-    #- value: static native
 
-    #--- below does not work
-    #- value: public\s+native
-    #- value: private\s+native
-    #- value: static\s+native
-
-## public native
-## private native
-## static native
+#- public native
+#- private native
+#- static native

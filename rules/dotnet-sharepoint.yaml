@@ -11,3 +11,4 @@ tags:
 patterns:
 - value: Microsoft.SharePoint
   advice: SharePoint is not supported on CloudFoundry.
+#C2R

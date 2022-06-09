@@ -1,0 +1,13 @@
+name: java-infinispan
+filetype: (jsp$|java$)
+target: line
+type: regex
+defaultpattern: ^.*import(\s*|=")%s.*$
+advice: Distributed caches must be remediated to function in K8S
+effort: 50
+readiness: 10
+category: distcache
+tags:
+  - value: distcache
+patterns:
+  - value: org.infinispan #--- dist

@@ -1,12 +1,13 @@
-name: java-segoia.yaml
+name: java-segoia
 filetype: (jsp$|java$)
-target: line echo name: segoia
-filetype: (jsp$|java$)
+target: line
+name: segoia
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: segoia
 tags:
 - value: segoia
 patterns:
 - value: segoia
+#- import com.segoia

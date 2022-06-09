@@ -1,12 +1,13 @@
-name: java-javalite.yaml
+name: java-javalite
 filetype: (jsp$|java$)
-target: line echo name: javalite
-filetype: (jsp$|java$)
+target: line
+name: javalite
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: javalite
 tags:
 - value: javalite
 patterns:
 - value: javalite
+#- import com.javalite

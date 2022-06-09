@@ -1,12 +1,13 @@
-name: java-skife.yaml
+name: java-skife
 filetype: (jsp$|java$)
-target: line echo name: skife
-filetype: (jsp$|java$)
+target: line
+name: skife
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: skife
 tags:
 - value: skife
 patterns:
 - value: skife
+#- import com.skife

@@ -1,12 +1,13 @@
-name: java-frege-lang.yaml
+name: java-frege-lang
 filetype: (jsp$|java$)
-target: line echo name: frege-lang
-filetype: (jsp$|java$)
+target: line
+name: frege-lang
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: frege-lang
 tags:
 - value: frege-lang
 patterns:
 - value: frege-lang
+#- import com.frege-lang

@@ -1,12 +1,13 @@
-name: java-jmodelc-wrappers.yaml
+name: java-jmodelc-wrappers
 filetype: (jsp$|java$)
-target: line echo name: jmodelc-wrappers
-filetype: (jsp$|java$)
+target: line
+name: jmodelc-wrappers
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jmodelc-wrappers
 tags:
 - value: jmodelc-wrappers
 patterns:
 - value: jmodelc-wrappers
+#- import com.jmodelc-wrappers

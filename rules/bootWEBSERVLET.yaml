@@ -14,3 +14,4 @@ patterns:
   - value: websocket-api
   - value: javax.websocket-client-api
   - value: javax.websocket-all
+#C2R

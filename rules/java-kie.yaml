@@ -1,12 +1,13 @@
-name: java-kie.yaml
+name: java-kie
 filetype: (jsp$|java$)
-target: line echo name: kie
-filetype: (jsp$|java$)
+target: line
+name: kie
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: kie
 tags:
 - value: kie
 patterns:
 - value: kie
+#- import com.kie

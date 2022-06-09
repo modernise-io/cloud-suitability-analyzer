@@ -1,12 +1,13 @@
-name: java-sigwned.yaml
+name: java-sigwned
 filetype: (jsp$|java$)
-target: line echo name: sigwned
-filetype: (jsp$|java$)
+target: line
+name: sigwned
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: sigwned
 tags:
 - value: sigwned
 patterns:
 - value: sigwned
+#- import com.sigwned

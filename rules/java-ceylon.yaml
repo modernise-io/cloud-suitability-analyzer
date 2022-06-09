@@ -1,12 +1,13 @@
-name: java-ceylon.yaml
+name: java-ceylon
 filetype: (jsp$|java$)
-target: line echo name: ceylon
-filetype: (jsp$|java$)
+target: line
+name: ceylon
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: ceylon
 tags:
 - value: ceylon
 patterns:
 - value: ceylon
+#- import com.ceylon

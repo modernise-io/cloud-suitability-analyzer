@@ -1,12 +1,13 @@
-name: java-frugalmechanic.yaml
+name: java-frugalmechanic
 filetype: (jsp$|java$)
-target: line echo name: frugalmechanic
-filetype: (jsp$|java$)
+target: line
+name: frugalmechanic
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: frugalmechanic
 tags:
 - value: frugalmechanic
 patterns:
 - value: frugalmechanic
+#- import com.frugalmechanic

@@ -13,3 +13,4 @@ patterns:
   - value: jboss-annotations-api_1.3_spec
   - value: jboss-servlet-api_4.0_spec
   - value: javax.enterprise.concurrent-api
+#C2R

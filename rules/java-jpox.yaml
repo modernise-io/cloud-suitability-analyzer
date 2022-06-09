@@ -1,12 +1,13 @@
-name: java-jpox.yaml
+name: java-jpox
 filetype: (jsp$|java$)
-target: line echo name: jpox
-filetype: (jsp$|java$)
+target: line
+name: jpox
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jpox
 tags:
 - value: jpox
 patterns:
 - value: jpox
+#- import com.jpox

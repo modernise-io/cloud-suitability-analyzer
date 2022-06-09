@@ -8,7 +8,8 @@ readiness: 8
 effort: 3
 category: DatabaseAccess
 tags:
-- value: Database
+- value: oracle
 patterns:
 - value: Oracle.DataAccess
   advice: Oracle unmanaged driver requires including binaries with app -- can use buildpack. 
+  #C2Q

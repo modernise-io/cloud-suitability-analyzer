@@ -1,12 +1,13 @@
-name: java-zappos.yaml
+name: java-zappos
 filetype: (jsp$|java$)
-target: line echo name: zappos
-filetype: (jsp$|java$)
+target: line
+name: zappos
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: zappos
 tags:
 - value: zappos
 patterns:
 - value: zappos
+#- import com.zappos

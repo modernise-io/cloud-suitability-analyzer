@@ -9,10 +9,7 @@ readiness: 6
 category: portUsage
 tags:
   - value: portUsage
-  - value: api
-  - value: protocol
-  - value: url
-patterns:
+ atterns:
   - value: https
   - value: http
 ## http://ibm.com:443/path/

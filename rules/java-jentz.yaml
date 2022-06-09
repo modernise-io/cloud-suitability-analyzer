@@ -1,12 +1,13 @@
-name: java-jentz.yaml
+name: java-jentz
 filetype: (jsp$|java$)
-target: line echo name: jentz
-filetype: (jsp$|java$)
+target: line
+name: jentz
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jentz
 tags:
 - value: jentz
 patterns:
 - value: jentz
+#- import com.jentz

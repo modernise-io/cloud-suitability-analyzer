@@ -1,12 +1,13 @@
-name: java-mongo.yaml
+name: java-mongo
 filetype: (jsp$|java$)
-target: line echo name: mongo
-filetype: (jsp$|java$)
+target: line
+name: mongo
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: mongo
 tags:
 - value: mongo
 patterns:
 - value: mongo
+#- import com.mongo

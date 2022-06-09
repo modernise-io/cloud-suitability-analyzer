@@ -1,12 +1,13 @@
-name: java-roboguice.yaml
+name: java-roboguice
 filetype: (jsp$|java$)
-target: line echo name: roboguice
-filetype: (jsp$|java$)
+target: line
+name: roboguice
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: roboguice
 tags:
 - value: roboguice
 patterns:
 - value: roboguice
+#- import com.roboguice

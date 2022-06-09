@@ -1,12 +1,13 @@
-name: java-jolbox.yaml
+name: java-jolbox
 filetype: (jsp$|java$)
-target: line echo name: jolbox
-filetype: (jsp$|java$)
+target: line
+name: jolbox
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jolbox
 tags:
 - value: jolbox
 patterns:
 - value: jolbox
+#- import com.jolbox

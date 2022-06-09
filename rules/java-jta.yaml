@@ -12,7 +12,6 @@ category: jta
 advice: Distributed transcations are problematic and should be remediated.
 recipes:
 tags:
-  - value: api
   - value: jta
   - value: webprofile
 patterns:
@@ -37,24 +36,24 @@ patterns:
   - value: XAException
   - value: enlistForDurableTwoPhase
   - value: enlistForVolatileTwoPhase
-##  UserTransaction(
-##  InvalidTransactionException(
-##  TransactionRequiredException(
-##  TransactionRollemodelackException(
-##  Synchronization(
-##  TransactionManager(
-##  TransactionSynchronizationRegistry(
-##  UserTransaction(
-##  HeuristicCommitException(
-##  HeuristicMixedException(
-##  HeuristicRollbackException(
-##  InvalidTransactionException(
-##  NotSupportedException(
-##  RollbackException(
-##  SystemException(
-##  TransactionalException(
-##  TransactionRequiredException(
-##  TransactionRollemodelackException(
-##  XAResource(
-##  Xid(
-##  XAException(
+#-  UserTransaction(
+#-  InvalidTransactionException(
+#-  TransactionRequiredException(
+#-  TransactionRollemodelackException(
+#-  Synchronization(
+#-  TransactionManager(
+#-  TransactionSynchronizationRegistry(
+#-  UserTransaction(
+#-  HeuristicCommitException(
+#-  HeuristicMixedException(
+#-  HeuristicRollbackException(
+#-  InvalidTransactionException(
+#-  NotSupportedException(
+#-  RollbackException(
+#-  SystemException(
+#-  TransactionalException(
+#-  TransactionRequiredException(
+#-  TransactionRollemodelackException(
+#-  XAResource(
+#-  Xid(
+#-  XAException(

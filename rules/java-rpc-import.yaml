@@ -8,12 +8,11 @@ effort: 2
 readiness: 10
 category: webService
 tags:
-  - value: webservices
-  - value: api
+  - value: webservice
   - value: rpc
-  - value: soap
 patterns:
   - value: org.apache.soap.rpc
+    tag: soap
   - value: javax.xml.rpc.Call
   - value: javax.xml.rpc.Service
   - value: javax.xml.rpc.Stub

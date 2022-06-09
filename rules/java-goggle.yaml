@@ -1,12 +1,13 @@
-name: java-goggle.yaml
+name: java-goggle
 filetype: (jsp$|java$)
-target: line echo name: goggle
-filetype: (jsp$|java$)
+target: line
+name: goggle
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: goggle
 tags:
 - value: goggle
 patterns:
 - value: goggle
+#- import com.goggle

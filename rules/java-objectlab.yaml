@@ -1,12 +1,13 @@
-name: java-objectlab.yaml
+name: java-objectlab
 filetype: (jsp$|java$)
-target: line echo name: objectlab
-filetype: (jsp$|java$)
+target: line
+name: objectlab
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: objectlab
 tags:
 - value: objectlab
 patterns:
 - value: objectlab
+#- import com.objectlab

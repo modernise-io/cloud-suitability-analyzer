@@ -1,0 +1,13 @@
+name: java-com-m3
+filetype: (jsp$|java$)
+target: line
+name: com.m3
+type: regex
+defaultpattern: ^ *import *(io|com|org|net)\.%s
+advice: Consult 3rd party documentation
+category: com.m3
+tags:
+- value: com.m3
+patterns:
+- value: com.m3
+#- import com.com.m3

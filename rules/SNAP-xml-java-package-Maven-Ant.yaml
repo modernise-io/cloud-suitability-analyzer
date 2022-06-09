@@ -8,20 +8,9 @@ advice: Refer to platform documentation
 effort: 100
 readiness: 0
 tags:
-  - value: api
-  - value: ear
   - value: maven
   - value: snap
 patterns:
   - value: <packaging>ear</packaging>
-
-  #--- Ant Packaging
   - value: '<target name="ear"'
-##<packaging>war</packaging>
-##<packaging>jar</packaging>
-##<packaging>ear</packaging>
-
-#--- Ant Packaging
-##'<target name="war"'
-##'<target name="jar"'
-##'<target name="ear"'
+#C2R

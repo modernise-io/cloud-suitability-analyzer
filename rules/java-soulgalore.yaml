@@ -1,12 +1,13 @@
-name: java-soulgalore.yaml
+name: java-soulgalore
 filetype: (jsp$|java$)
-target: line echo name: soulgalore
-filetype: (jsp$|java$)
+target: line
+name: soulgalore
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: soulgalore
 tags:
 - value: soulgalore
 patterns:
 - value: soulgalore
+#- import com.soulgalore

@@ -1,0 +1,16 @@
+name: java-apache-ignite
+filetype: (jsp$|java$)
+target: line
+type: regex
+defaultpattern: ^.*import(\s*|=")%s.*$
+advice: Distributed caches must be remediated to function in K8S
+effort: 50
+readiness: 10
+category: distcache
+tags:
+  - value: distcache
+  - value: apache-ignite
+patterns:
+  - value: org.apache.ignite #--- dist
+#- import org.apache.ignite
+#OK

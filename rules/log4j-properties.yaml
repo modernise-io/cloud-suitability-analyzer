@@ -7,8 +7,8 @@ advice: Refer to platform documentation
 effort: 1
 readiness: 0
 tags:
-  - value: api
-  - value: log2file
+  - value: log4j
+  - value: logging
 patterns:
   #--- SQL command
   - value: property.filename

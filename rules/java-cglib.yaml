@@ -1,12 +1,13 @@
-name: java-cglib.yaml
+name: java-cglib
 filetype: (jsp$|java$)
-target: line echo name: cglib
-filetype: (jsp$|java$)
+target: line
+name: cglib
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: cglib
 tags:
 - value: cglib
 patterns:
 - value: cglib
+#- import com.cglib

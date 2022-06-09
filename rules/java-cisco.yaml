@@ -1,12 +1,13 @@
-name: java-cisco.yaml
+name: java-cisco
 filetype: (jsp$|java$)
-target: line echo name: cisco
-filetype: (jsp$|java$)
+target: line
+name: cisco
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: cisco
 tags:
 - value: cisco
 patterns:
 - value: cisco
+#- import com.cisco

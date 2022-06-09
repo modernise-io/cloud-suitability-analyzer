@@ -1,0 +1,13 @@
+name: java-apache-commons
+filetype: (jsp$|java$)
+target: line
+name: apache.commons
+type: regex
+defaultpattern: ^ *import *(io|com|org|net)\.%s
+advice: Consult 3rd party documentation
+category: apache.commons
+tags:
+- value: apache.commons
+patterns:
+- value: apache.commons
+#- import com.apache.commons

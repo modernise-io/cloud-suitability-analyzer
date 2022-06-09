@@ -12,3 +12,4 @@ tags:
   - value: term
 patterns:
   - value: Runtime.getRuntime().addShutdownHook
+#C2R

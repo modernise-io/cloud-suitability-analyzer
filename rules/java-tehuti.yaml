@@ -1,12 +1,13 @@
-name: java-tehuti.yaml
+name: java-tehuti
 filetype: (jsp$|java$)
-target: line echo name: tehuti
-filetype: (jsp$|java$)
+target: line
+name: tehuti
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: tehuti
 tags:
 - value: tehuti
 patterns:
 - value: tehuti
+#- import com.tehuti

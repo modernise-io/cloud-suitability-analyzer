@@ -1,12 +1,13 @@
-name: java-log4j.yaml
+name: java-log4j
 filetype: (jsp$|java$)
-target: line echo name: log4j
-filetype: (jsp$|java$)
+target: line
+name: log4j
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: log4j
 tags:
 - value: log4j
 patterns:
 - value: log4j
+#- import com.log4j

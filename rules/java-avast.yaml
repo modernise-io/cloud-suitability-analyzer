@@ -1,12 +1,13 @@
-name: java-avast.yaml
+name: java-avast
 filetype: (jsp$|java$)
-target: line echo name: avast
-filetype: (jsp$|java$)
+target: line
+name: avast
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: avast
 tags:
 - value: avast
 patterns:
 - value: avast
+#- import com.avast

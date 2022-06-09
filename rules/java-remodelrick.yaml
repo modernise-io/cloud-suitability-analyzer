@@ -1,12 +1,13 @@
-name: java-remodelrick.yaml
+name: java-remodelrick
 filetype: (jsp$|java$)
-target: line echo name: remodelrick
-filetype: (jsp$|java$)
+target: line
+name: remodelrick
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: remodelrick
 tags:
 - value: remodelrick
 patterns:
 - value: remodelrick
+#- import com.remodelrick

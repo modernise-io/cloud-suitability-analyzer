@@ -12,3 +12,4 @@ tags:
 patterns:
   #--- SQL command
   - value: property.filename
+#C2R

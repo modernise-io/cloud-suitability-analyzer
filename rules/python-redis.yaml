@@ -13,3 +13,4 @@ recipes:
 patterns:
 - value: import redis
 - value: import aioredis
+#C2R

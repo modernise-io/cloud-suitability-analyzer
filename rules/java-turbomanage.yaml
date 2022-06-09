@@ -1,12 +1,13 @@
-name: java-turbomanage.yaml
+name: java-turbomanage
 filetype: (jsp$|java$)
-target: line echo name: turbomanage
-filetype: (jsp$|java$)
+target: line
+name: turbomanage
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: turbomanage
 tags:
 - value: turbomanage
 patterns:
 - value: turbomanage
+#- import com.turbomanage

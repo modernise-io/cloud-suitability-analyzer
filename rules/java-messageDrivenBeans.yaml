@@ -9,11 +9,9 @@ advice: Refer to platform documentation
 effort: 7
 readiness: 10
 tags:
-- value: api
-- value: annotations
 - value: lookup
 - value: ejb
 patterns:
 - value: 'EJB\(lookup'
 
-##@EJB(lookup=)
+#- @EJB(lookup=

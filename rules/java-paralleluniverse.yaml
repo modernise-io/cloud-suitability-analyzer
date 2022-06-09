@@ -1,12 +1,13 @@
-name: java-paralleluniverse.yaml
+name: java-paralleluniverse
 filetype: (jsp$|java$)
-target: line echo name: paralleluniverse
-filetype: (jsp$|java$)
+target: line
+name: paralleluniverse
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: paralleluniverse
 tags:
 - value: paralleluniverse
 patterns:
 - value: paralleluniverse
+#- import com.paralleluniverse

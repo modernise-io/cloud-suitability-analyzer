@@ -8,7 +8,6 @@ readiness: 7
 category: jca
 advice: Migrate to backing service or move to TKG
 tags:
-  - value: api
   - value: resource-adapter
   - value: spi
   - value: jca
@@ -50,40 +49,40 @@ patterns:
   - value: workStarted
   - value: WorkContextErrorCodes
   - value: getStartDuration
-##  getTransactionSynchronizationRegistry(
-##  ConnectionRequestInfo(
-##  DissociatableManagedConnection(
-##  dissociateConnections(
-##  LazyAssociatableConnectionManager(
-##  associateConnection(
-##  LazyEnlistableConnectionManager(
-##  lazyEnlist(
-##  LazyEnlistableManagedConnection(
-##  ResourceAdapter(
-##  endpointActivation(
-##  endpointDeactivation(
-##  ResourceAdapterAssociation(
-##  getResourceAdapter(
-##  setResourceAdapter(
-##  ValidatingManagedConnectionFactory(
-##  getInvalidConnections(
-##  XATerminator(
-##  MessageEndpointFactory(
-##  isDeliveryTransacted(
-##  getMechType(
-##  DistributableWork(
-##  DistributableWorkManager(
-##  WorkContextLifecycleListener(
-##  contextSetupComplete(
-##  contextSetupFailed(
-##  WorkContextProvider(
-##  scheduleWork(
-##  HintsContext(
-##  setupSecurityContext(
-##  WorkAdapter(
-##  workAccepted(
-##  workCompleted(
-##  workRejected(
-##  workStarted(
-##  WorkContextErrorCodes(
-##  getStartDuration(
+#-  getTransactionSynchronizationRegistry(
+#-  ConnectionRequestInfo(
+#-  DissociatableManagedConnection(
+#-  dissociateConnections(
+#-  LazyAssociatableConnectionManager(
+#-  associateConnection(
+#-  LazyEnlistableConnectionManager(
+#-  lazyEnlist(
+#-  LazyEnlistableManagedConnection(
+#-  ResourceAdapter(
+#-  endpointActivation(
+#-  endpointDeactivation(
+#-  ResourceAdapterAssociation(
+#-  getResourceAdapter(
+#-  setResourceAdapter(
+#-  ValidatingManagedConnectionFactory(
+#-  getInvalidConnections(
+#-  XATerminator(
+#-  MessageEndpointFactory(
+#-  isDeliveryTransacted(
+#-  getMechType(
+#-  DistributableWork(
+#-  DistributableWorkManager(
+#-  WorkContextLifecycleListener(
+#-  contextSetupComplete(
+#-  contextSetupFailed(
+#-  WorkContextProvider(
+#-  scheduleWork(
+#-  HintsContext(
+#-  setupSecurityContext(
+#-  WorkAdapter(
+#-  workAccepted(
+#-  workCompleted(
+#-  workRejected(
+#-  workStarted(
+#-  WorkContextErrorCodes(
+#-  getStartDuration(

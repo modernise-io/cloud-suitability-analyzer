@@ -5,11 +5,10 @@ type: regex
 defaultpattern: ^\s*@%s
 advice: To convert a message driven bean to spring cloud stream with rabbitmq
 effort: 5
-category: annotations
+category: message-queue
 tags:
-- value: annotations
-- value: javaee
+- value: message-queue
 patterns:
 - value: MessageDriven
 - value: ActivationConfigProperty
-  tag: messaging
+  tag: message-queue

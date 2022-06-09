@@ -5,9 +5,9 @@ type: contains
 advice: When using HTTPS, terminate SSL at load balancer
 effort: 1
 readiness: 10
-category: WCF
+category: wcf
 tags:
-- value: api
+- value: wcf
 patterns:
 - value: BasicHttpSecurityMode.Transport
 ## BasicHttpSecurityMode.Transport
@@ -20,3 +20,4 @@ patterns:
 - value: mode="Transport"
 ## mode="Transport"
   advice: Transport security at the container is not supported.  Disable transport security on the service
+#C2R

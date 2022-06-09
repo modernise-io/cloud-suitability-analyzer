@@ -1,12 +1,13 @@
-name: java-socialmetrix.yaml
+name: java-socialmetrix
 filetype: (jsp$|java$)
-target: line echo name: socialmetrix
-filetype: (jsp$|java$)
+target: line
+name: socialmetrix
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: socialmetrix
 tags:
 - value: socialmetrix
 patterns:
 - value: socialmetrix
+#- import com.socialmetrix

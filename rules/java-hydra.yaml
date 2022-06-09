@@ -1,12 +1,13 @@
-name: java-hydra.yaml
+name: java-hydra
 filetype: (jsp$|java$)
-target: line echo name: hydra
-filetype: (jsp$|java$)
+target: line
+name: hydra
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: hydra
 tags:
 - value: hydra
 patterns:
 - value: hydra
+#- import com.hydra

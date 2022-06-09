@@ -1,12 +1,13 @@
-name: java-eclipse.yaml
+name: java-eclipse
 filetype: (jsp$|java$)
-target: line echo name: eclipse
-filetype: (jsp$|java$)
+target: line
+name: eclipse
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: eclipse
 tags:
 - value: eclipse
 patterns:
 - value: eclipse
+#- import com.eclipse

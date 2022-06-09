@@ -1,12 +1,13 @@
-name: java-jcabi.yaml
+name: java-jcabi
 filetype: (jsp$|java$)
-target: line echo name: jcabi
-filetype: (jsp$|java$)
+target: line
+name: jcabi
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jcabi
 tags:
 - value: jcabi
 patterns:
 - value: jcabi
+#- import com.jcabi

@@ -1,12 +1,13 @@
-name: java-bcel.yaml
+name: java-bcel
 filetype: (jsp$|java$)
-target: line echo name: bcel
-filetype: (jsp$|java$)
+target: line
+name: bcel
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: bcel
 tags:
 - value: bcel
 patterns:
 - value: bcel
+#- import com.bcel

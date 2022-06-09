@@ -1,12 +1,13 @@
-name: java-cojen.yaml
+name: java-cojen
 filetype: (jsp$|java$)
-target: line echo name: cojen
-filetype: (jsp$|java$)
+target: line
+name: cojen
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: cojen
 tags:
 - value: cojen
 patterns:
 - value: cojen
+#- import com.cojen

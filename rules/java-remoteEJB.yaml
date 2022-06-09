@@ -10,17 +10,13 @@ readiness: 10
 defaultpattern: ^\s*@%s
 category: ejb
 tags:
-  - value: annotations
-  - value: ejb
-  - value: api
-  - value: javaee
-  - value: fullprofile
-patterns:
+  - value: remote-ejb
+ atterns:
   - value: RemoteHome
     tag: remote
   - value: EJBObject
   - value: EJBHome
-##@Remote
-##@RemoteHome
-##@EJBObject
-##@EJBHome
+#- @Remote
+#- @RemoteHome
+#- @EJBObject
+#- @EJBHome

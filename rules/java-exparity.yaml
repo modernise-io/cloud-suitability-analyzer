@@ -1,12 +1,13 @@
-name: java-exparity.yaml
+name: java-exparity
 filetype: (jsp$|java$)
-target: line echo name: exparity
-filetype: (jsp$|java$)
+target: line
+name: exparity
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: exparity
 tags:
 - value: exparity
 patterns:
 - value: exparity
+#- import com.exparity

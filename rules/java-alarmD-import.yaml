@@ -11,4 +11,6 @@ tags:
   - value: api
   - value: scheduler
 patterns:
-  - value: com.tfcci.ucs.manager
+  - value: com.tfcci
+#- com.tfcci
+#OK

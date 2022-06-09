@@ -1,12 +1,13 @@
-name: java-propensive.yaml
+name: java-propensive
 filetype: (jsp$|java$)
-target: line echo name: propensive
-filetype: (jsp$|java$)
+target: line
+name: propensive
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: propensive
 tags:
 - value: propensive
 patterns:
 - value: propensive
+#- import com.propensive

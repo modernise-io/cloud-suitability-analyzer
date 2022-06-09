@@ -1,12 +1,13 @@
-name: java-snaq.yaml
+name: java-snaq
 filetype: (jsp$|java$)
-target: line echo name: snaq
-filetype: (jsp$|java$)
+target: line
+name: snaq
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: snaq
 tags:
 - value: snaq
 patterns:
 - value: snaq
+#- import com.snaq

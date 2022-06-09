@@ -1,12 +1,13 @@
-name: java-higgs.yaml
+name: java-higgs
 filetype: (jsp$|java$)
-target: line echo name: higgs
-filetype: (jsp$|java$)
+target: line
+name: higgs
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: higgs
 tags:
 - value: higgs
 patterns:
 - value: higgs
+#- import com.higgs

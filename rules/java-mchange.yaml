@@ -1,12 +1,13 @@
-name: java-mchange.yaml
+name: java-mchange
 filetype: (jsp$|java$)
-target: line echo name: mchange
-filetype: (jsp$|java$)
+target: line
+name: mchange
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: mchange
 tags:
 - value: mchange
 patterns:
 - value: mchange
+#- import com.mchange

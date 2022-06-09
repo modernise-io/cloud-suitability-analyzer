@@ -1,12 +1,13 @@
-name: java-jpattern.yaml
+name: java-jpattern
 filetype: (jsp$|java$)
-target: line echo name: jpattern
-filetype: (jsp$|java$)
+target: line
+name: jpattern
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jpattern
 tags:
 - value: jpattern
 patterns:
 - value: jpattern
+#- import com.jpattern

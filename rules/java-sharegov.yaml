@@ -1,12 +1,13 @@
-name: java-sharegov.yaml
+name: java-sharegov
 filetype: (jsp$|java$)
-target: line echo name: sharegov
-filetype: (jsp$|java$)
+target: line
+name: sharegov
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: sharegov
 tags:
 - value: sharegov
 patterns:
 - value: sharegov
+#- import com.sharegov

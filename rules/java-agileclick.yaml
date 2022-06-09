@@ -1,12 +1,13 @@
-name: java-agileclick.yaml
+name: java-agileclick
 filetype: (jsp$|java$)
-target: line echo name: agileclick
-filetype: (jsp$|java$)
+target: line
+name: agileclick
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: agileclick
 tags:
 - value: agileclick
 patterns:
 - value: agileclick
+#- import com.agileclick

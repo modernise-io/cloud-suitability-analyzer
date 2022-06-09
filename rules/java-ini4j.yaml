@@ -1,12 +1,13 @@
-name: java-ini4j.yaml
+name: java-ini4j
 filetype: (jsp$|java$)
-target: line echo name: ini4j
-filetype: (jsp$|java$)
+target: line
+name: ini4j
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: ini4j
 tags:
 - value: ini4j
 patterns:
 - value: ini4j
+#- import com.ini4j

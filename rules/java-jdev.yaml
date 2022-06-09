@@ -1,12 +1,13 @@
-name: java-jdev.yaml
+name: java-jdev
 filetype: (jsp$|java$)
-target: line echo name: jdev
-filetype: (jsp$|java$)
+target: line
+name: jdev
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jdev
 tags:
 - value: jdev
 patterns:
 - value: jdev
+#- import com.jdev

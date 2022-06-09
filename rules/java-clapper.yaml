@@ -1,12 +1,13 @@
-name: java-clapper.yaml
+name: java-clapper
 filetype: (jsp$|java$)
-target: line echo name: clapper
-filetype: (jsp$|java$)
+target: line
+name: clapper
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: clapper
 tags:
 - value: clapper
 patterns:
 - value: clapper
+#- import com.clapper

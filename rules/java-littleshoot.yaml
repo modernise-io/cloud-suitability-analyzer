@@ -1,12 +1,13 @@
-name: java-littleshoot.yaml
+name: java-littleshoot
 filetype: (jsp$|java$)
-target: line echo name: littleshoot
-filetype: (jsp$|java$)
+target: line
+name: littleshoot
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: littleshoot
 tags:
 - value: littleshoot
 patterns:
 - value: littleshoot
+#- import com.littleshoot

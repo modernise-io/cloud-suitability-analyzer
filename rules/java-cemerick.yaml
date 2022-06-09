@@ -1,12 +1,13 @@
-name: java-cemerick.yaml
+name: java-cemerick
 filetype: (jsp$|java$)
-target: line echo name: cemerick
-filetype: (jsp$|java$)
+target: line
+name: cemerick
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: cemerick
 tags:
 - value: cemerick
 patterns:
 - value: cemerick
+#- import com.cemerick

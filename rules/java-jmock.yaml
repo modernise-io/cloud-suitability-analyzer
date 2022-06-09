@@ -1,12 +1,13 @@
-name: java-jmock.yaml
+name: java-jmock
 filetype: (jsp$|java$)
-target: line echo name: jmock
-filetype: (jsp$|java$)
+target: line
+name: jmock
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jmock
 tags:
 - value: jmock
 patterns:
 - value: jmock
+#- import com.jmock

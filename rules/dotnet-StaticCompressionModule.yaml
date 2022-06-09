@@ -9,4 +9,4 @@ effort: 100
 readiness: 5
 patterns:
 - value: /configuration/system.webServer/httpCompression[1]
-##<httpCompression
+#OK

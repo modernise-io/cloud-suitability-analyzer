@@ -13,3 +13,4 @@ recipes:
 patterns:
 - value: import pika
 - value: import aio_pika
+#C2R

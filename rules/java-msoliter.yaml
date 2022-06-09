@@ -1,12 +1,13 @@
-name: java-msoliter.yaml
+name: java-msoliter
 filetype: (jsp$|java$)
-target: line echo name: msoliter
-filetype: (jsp$|java$)
+target: line
+name: msoliter
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: msoliter
 tags:
 - value: msoliter
 patterns:
 - value: msoliter
+#- import com.msoliter

@@ -1,12 +1,13 @@
-name: java-cyrusinnovation.yaml
+name: java-cyrusinnovation
 filetype: (jsp$|java$)
-target: line echo name: cyrusinnovation
-filetype: (jsp$|java$)
+target: line
+name: cyrusinnovation
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: cyrusinnovation
 tags:
 - value: cyrusinnovation
 patterns:
 - value: cyrusinnovation
+#- import com.cyrusinnovation

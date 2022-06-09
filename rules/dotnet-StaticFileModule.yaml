@@ -9,4 +9,4 @@ effort: 400
 readiness: 5
 patterns:
 - value: /configuration/system.webServer/handlers/add[contains(@modules, "StaticFileModule")][1]
-## StaticFileModule
+#OK

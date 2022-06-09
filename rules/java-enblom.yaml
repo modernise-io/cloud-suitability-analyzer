@@ -1,12 +1,13 @@
-name: java-enblom.yaml
+name: java-enblom
 filetype: (jsp$|java$)
-target: line echo name: enblom
-filetype: (jsp$|java$)
+target: line
+name: enblom
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: enblom
 tags:
 - value: enblom
 patterns:
 - value: enblom
+#- import com.enblom

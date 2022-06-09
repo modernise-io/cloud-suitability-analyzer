@@ -1,12 +1,13 @@
-name: java-ebay.yaml
+name: java-ebay
 filetype: (jsp$|java$)
-target: line echo name: ebay
-filetype: (jsp$|java$)
+target: line
+name: ebay
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: ebay
 tags:
 - value: ebay
 patterns:
 - value: ebay
+#- import com.ebay

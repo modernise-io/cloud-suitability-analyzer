@@ -1,12 +1,13 @@
-name: java-mybatis.yaml
+name: java-mybatis
 filetype: (jsp$|java$)
-target: line echo name: mybatis
-filetype: (jsp$|java$)
+target: line
+name: mybatis
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: mybatis
 tags:
 - value: mybatis
 patterns:
 - value: mybatis
+#- import com.mybatis

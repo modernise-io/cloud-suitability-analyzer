@@ -1,12 +1,13 @@
-name: java-glassfish.yaml
+name: java-glassfish
 filetype: (jsp$|java$)
-target: line echo name: glassfish
-filetype: (jsp$|java$)
+target: line
+name: glassfish
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: glassfish
 tags:
 - value: glassfish
 patterns:
 - value: glassfish
+#- import com.glassfish

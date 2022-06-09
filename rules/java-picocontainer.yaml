@@ -1,12 +1,13 @@
-name: java-picocontainer.yaml
+name: java-picocontainer
 filetype: (jsp$|java$)
-target: line echo name: picocontainer
-filetype: (jsp$|java$)
+target: line
+name: picocontainer
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: picocontainer
 tags:
 - value: picocontainer
 patterns:
 - value: picocontainer
+#- import com.picocontainer

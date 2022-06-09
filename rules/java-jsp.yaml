@@ -10,10 +10,8 @@ effort: 2
 readiness: 5
 category: jsp
 tags:
-  - value: api
   - value: ui
   - value: jsp
-  - value: webcontainer
 patterns:
   - value: TagSupport
   - value: JspException
@@ -29,17 +27,17 @@ patterns:
   - value: JspException
   - value: JspTagException
   - value: SkipPageException
-##  TagSupport(
-##  JspException(
-##  BodyContent(
-##  HttpJspPage(
-##  JspApplicationContext(
-##  JspPage(
-##  JspContext(
-##  JspEngineInfo(
-##  JspFactory(
-##  JspWriter(
-##  PageContext(
-##  JspException(
-##  JspTagException(
-##  SkipPageException(
+#-  TagSupport(
+#-  JspException(
+#-  BodyContent(
+#-  HttpJspPage(
+#-  JspApplicationContext(
+#-  JspPage(
+#-  JspContext(
+#-  JspEngineInfo(
+#-  JspFactory(
+#-  JspWriter(
+#-  PageContext(
+#-  JspException(
+#-  JspTagException(
+#-  SkipPageException(

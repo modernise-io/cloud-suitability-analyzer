@@ -1,12 +1,13 @@
-name: java-mockejb.yaml
+name: java-mockejb
 filetype: (jsp$|java$)
-target: line echo name: mockejb
-filetype: (jsp$|java$)
+target: line
+name: mockejb
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: mockejb
 tags:
 - value: mockejb
 patterns:
 - value: mockejb
+#- import com.mockejb

@@ -1,12 +1,13 @@
-name: java-sun.mail.yaml
+name: java-sun.mail
 filetype: (jsp$|java$)
-target: line echo name: sun.mail
-filetype: (jsp$|java$)
+target: line
+name: sun.mail
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: sun.mail
 tags:
 - value: sun.mail
 patterns:
 - value: sun.mail
+#- import com.sun.mail

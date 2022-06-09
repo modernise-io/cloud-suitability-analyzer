@@ -1,12 +1,13 @@
-name: java-javaclub.yaml
+name: java-javaclub
 filetype: (jsp$|java$)
-target: line echo name: javaclub
-filetype: (jsp$|java$)
+target: line
+name: javaclub
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: javaclub
 tags:
 - value: javaclub
 patterns:
 - value: javaclub
+#- import com.javaclub

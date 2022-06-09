@@ -11,8 +11,6 @@ tags:
 - value: api
 - value: io
 - value: python-fileio
-recipes:
-- uri: https://app-transformation-cookbook-internal.cfapps.io/backing-services-port-binding/persistence/
 patterns:
 - value: open
 - value: os.open

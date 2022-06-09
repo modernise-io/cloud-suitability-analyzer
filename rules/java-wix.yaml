@@ -1,12 +1,13 @@
-name: java-wix.yaml
+name: java-wix
 filetype: (jsp$|java$)
-target: line echo name: wix
-filetype: (jsp$|java$)
+target: line
+name: wix
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: wix
 tags:
 - value: wix
 patterns:
 - value: wix
+#- import com.wix

@@ -1,12 +1,13 @@
-name: java-everit.yaml
+name: java-everit
 filetype: (jsp$|java$)
-target: line echo name: everit
-filetype: (jsp$|java$)
+target: line
+name: everit
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: everit
 tags:
 - value: everit
 patterns:
 - value: everit
+#- import com.everit

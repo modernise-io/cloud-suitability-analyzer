@@ -8,11 +8,13 @@ effort: 1
 readiness: 7
 category: healthcheck
 tags:
-  - value: api
   - value: healthcheck
 patterns:
   - value: netflix.karyon.transport.http.health.HealthCheckEndpoint
+    tag: karyon
   - value: com.netflix.runtime.health.guice
+    tag: guice
   - value: com.netflix.runtime.health.api.HealthCheckAggregator
   - value: com.netflix.runtime.health.api.HealthCheckStatus
   - value: com.netflix.runtime.health.api.IndicatorMatcher
+    tag: netflix-healthcheck

@@ -1,12 +1,13 @@
-name: java-nryotaro.yaml
+name: java-nryotaro
 filetype: (jsp$|java$)
-target: line echo name: nryotaro
-filetype: (jsp$|java$)
+target: line
+name: nryotaro
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: nryotaro
 tags:
 - value: nryotaro
 patterns:
 - value: nryotaro
+#- import com.nryotaro

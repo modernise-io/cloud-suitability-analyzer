@@ -10,10 +10,8 @@ readiness: 6
 advice: Run embedded service broker as a JMS Provider. 
 category: jms
 tags:
-  - value: api
   - value: jms
-  - value: messaging
-  - value: fullprofile
+  - value: message-queue
 patterns:
   - value: MessageConsumer
     tag: jms-listener
@@ -62,51 +60,51 @@ patterns:
   - value: XATopicConnection
   - value: XATopicConnectionFactory
   - value: XATopicSession
-##  MessageConsumer(
-##  ConnectionFactory(
-##  JmsException(
-##  BytesMessage(
-##  CompletionListener(
-##  ConnectionConsumer(
-##  ConnectionFactory(
-##  ConnectionMetaData(
-##  DeliveryMode(
-##  Destination(
-##  ExceptionListener(
-##  JMSConsumer(
-##  JMSContext(
-##  JMSProducer(
-##  MapMessage(
-##  Message(
-##  MessageConsumer(
-##  MessageListener(
-##  MessageProducer(
-##  ObjectMessage(
-##  QueueBrowser(
-##  QueueConnection(
-##  QueueConnectionFactory(
-##  QueueReceiver(
-##  QueueSender(
-##  QueueSession(
-##  ServerSession(
-##  ServerSessionPool(
-##  StreamMessage(
-##  TemporaryQueue(
-##  TemporaryTopic(
-##  TextMessage(
-##  Topic(
-##  TopicConnection(
-##  TopicConnectionFactory(
-##  TopicPublisher(
-##  TopicSession(
-##  TopicSubscriber(
-##  XAConnection(
-##  XAConnectionFactory(
-##  XAJMSContext(
-##  XAQueueConnection(
-##  XAQueueConnectionFactory(
-##  XAQueueSession(
-##  XASession(
-##  XATopicConnection(
-##  XATopicConnectionFactory(
-##  XATopicSession(
+#-  MessageConsumer(
+#-  ConnectionFactory(
+#-  JmsException(
+#-  BytesMessage(
+#-  CompletionListener(
+#-  ConnectionConsumer(
+#-  ConnectionFactory(
+#-  ConnectionMetaData(
+#-  DeliveryMode(
+#-  Destination(
+#-  ExceptionListener(
+#-  JMSConsumer(
+#-  JMSContext(
+#-  JMSProducer(
+#-  MapMessage(
+#-  Message(
+#-  MessageConsumer(
+#-  MessageListener(
+#-  MessageProducer(
+#-  ObjectMessage(
+#-  QueueBrowser(
+#-  QueueConnection(
+#-  QueueConnectionFactory(
+#-  QueueReceiver(
+#-  QueueSender(
+#-  QueueSession(
+#-  ServerSession(
+#-  ServerSessionPool(
+#-  StreamMessage(
+#-  TemporaryQueue(
+#-  TemporaryTopic(
+#-  TextMessage(
+#-  Topic(
+#-  TopicConnection(
+#-  TopicConnectionFactory(
+#-  TopicPublisher(
+#-  TopicSession(
+#-  TopicSubscriber(
+#-  XAConnection(
+#-  XAConnectionFactory(
+#-  XAJMSContext(
+#-  XAQueueConnection(
+#-  XAQueueConnectionFactory(
+#-  XAQueueSession(
+#-  XASession(
+#-  XATopicConnection(
+#-  XATopicConnectionFactory(
+#-  XATopicSession(

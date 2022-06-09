@@ -8,8 +8,6 @@ readiness: 8
 advice: Storage on TAS is emphemerol, so nio based actions may not behave well
 category: nio
 tags:
-  - value: api
-  - value: java
   - value: nio
 patterns:
   - value: BufferOverflowException
@@ -53,44 +51,44 @@ patterns:
   - value: Selector
   - value: ServerSocketChannel
   - value: SocketChannel
-##  BufferOverflowException(
-##  BufferUnderflowException(
-##  InvalidMarkException(
-##  ReadOnlyBufferException(
-##  FileSystemProvider(
-##  GroupPrincipal(
-##  UserPrincipal(
-##  BasicFileAttributeView(
-##  UserPrincipalLookupService(
-##  BasicFileAttributeView(
-##  BasicFileAttributes(
-##  PosixFileAttributeView(
-##  PosixFileAttributes(
-##  PosixFilePermission(
-##  PosixFilePermissions(
-##  SocketChannel(
-##  CharacterCodingException(
-##  ServerSocketChannel(
-##  SelectionKey(
-##  CancelledKeyException(
-##  DatagramChannel(
-##  StandardOpenOption(
-##  MappemodelyteBuffer(
-##  ClosedChannelException(
-##  StandardOpenOption(
-##  AsynchronousChannelGroup(
-##  AsynchronousFileChannel(
-##  AsynchronousServerSocketChannel(
-##  AsynchronousSocketChannel(
-##  DatagramChannel(
-##  FileChannel(
-##  FileChannel.MapMode(
-##  FileLock(
-##  MembershipKey(
-##  Pipe.SinkChannel(
-##  Pipe.SourceChannel(
-##  SelectableChannel(
-##  SelectionKey(
-##  Selector(
-##  ServerSocketChannel(
-##  SocketChannel(
+#-  BufferOverflowException(
+#-  BufferUnderflowException(
+#-  InvalidMarkException(
+#-  ReadOnlyBufferException(
+#-  FileSystemProvider(
+#-  GroupPrincipal(
+#-  UserPrincipal(
+#-  BasicFileAttributeView(
+#-  UserPrincipalLookupService(
+#-  BasicFileAttributeView(
+#-  BasicFileAttributes(
+#-  PosixFileAttributeView(
+#-  PosixFileAttributes(
+#-  PosixFilePermission(
+#-  PosixFilePermissions(
+#-  SocketChannel(
+#-  CharacterCodingException(
+#-  ServerSocketChannel(
+#-  SelectionKey(
+#-  CancelledKeyException(
+#-  DatagramChannel(
+#-  StandardOpenOption(
+#-  MappemodelyteBuffer(
+#-  ClosedChannelException(
+#-  StandardOpenOption(
+#-  AsynchronousChannelGroup(
+#-  AsynchronousFileChannel(
+#-  AsynchronousServerSocketChannel(
+#-  AsynchronousSocketChannel(
+#-  DatagramChannel(
+#-  FileChannel(
+#-  FileChannel.MapMode(
+#-  FileLock(
+#-  MembershipKey(
+#-  Pipe.SinkChannel(
+#-  Pipe.SourceChannel(
+#-  SelectableChannel(
+#-  SelectionKey(
+#-  Selector(
+#-  ServerSocketChannel(
+#-  SocketChannel(

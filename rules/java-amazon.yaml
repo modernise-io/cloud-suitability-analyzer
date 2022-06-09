@@ -1,12 +1,13 @@
-name: java-amazon.yaml
+name: java-amazon
 filetype: (jsp$|java$)
-target: line echo name: amazon
-filetype: (jsp$|java$)
+target: line
+name: amazon
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: amazon
 tags:
 - value: amazon
 patterns:
 - value: amazon
+#- import com.amazon

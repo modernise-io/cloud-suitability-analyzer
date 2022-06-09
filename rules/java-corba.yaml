@@ -1,5 +1,4 @@
 ---
-#--- updated from 8/8/18 Survey
 name: java-corba
 filetype: java$
 target: line
@@ -11,10 +10,8 @@ effort: 10
 readiness: 6
 category: corba
 tags:
-  - value: api
   - value: rpc
   - value: corba
-  - value: non-standard
 patterns:
   - value: AnyHolder
   - value: AnySeqHelper

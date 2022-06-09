@@ -1,12 +1,13 @@
-name: java-pojava.yaml
+name: java-pojava
 filetype: (jsp$|java$)
-target: line echo name: pojava
-filetype: (jsp$|java$)
+target: line
+name: pojava
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: pojava
 tags:
 - value: pojava
 patterns:
 - value: pojava
+#- import com.pojava

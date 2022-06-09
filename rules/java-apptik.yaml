@@ -1,12 +1,13 @@
-name: java-apptik.yaml
+name: java-apptik
 filetype: (jsp$|java$)
-target: line echo name: apptik
-filetype: (jsp$|java$)
+target: line
+name: apptik
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: apptik
 tags:
 - value: apptik
 patterns:
 - value: apptik
+#- import com.apptik

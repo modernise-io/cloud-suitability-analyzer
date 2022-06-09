@@ -1,12 +1,13 @@
-name: java-jsonbuddy.yaml
+name: java-jsonbuddy
 filetype: (jsp$|java$)
-target: line echo name: jsonbuddy
-filetype: (jsp$|java$)
+target: line
+name: jsonbuddy
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jsonbuddy
 tags:
 - value: jsonbuddy
 patterns:
 - value: jsonbuddy
+#- import com.jsonbuddy

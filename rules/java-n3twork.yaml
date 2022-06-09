@@ -1,12 +1,13 @@
-name: java-n3twork.yaml
+name: java-n3twork
 filetype: (jsp$|java$)
-target: line echo name: n3twork
-filetype: (jsp$|java$)
+target: line
+name: n3twork
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: n3twork
 tags:
 - value: n3twork
 patterns:
 - value: n3twork
+#- import com.n3twork

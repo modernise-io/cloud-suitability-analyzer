@@ -16,5 +16,5 @@ tags:
 patterns:
   - value: AbstractMessageTransformer
   - value: AbstractTransformer
-## AbstractMessageTransformer{
-## AbstractTransformer{
+#- AbstractMessageTransformer{
+#- AbstractTransformer{

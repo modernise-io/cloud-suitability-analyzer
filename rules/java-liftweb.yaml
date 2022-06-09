@@ -1,12 +1,13 @@
-name: java-liftweb.yaml
+name: java-liftweb
 filetype: (jsp$|java$)
-target: line echo name: liftweb
-filetype: (jsp$|java$)
+target: line
+name: liftweb
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: liftweb
 tags:
 - value: liftweb
 patterns:
 - value: liftweb
+#- import com.liftweb

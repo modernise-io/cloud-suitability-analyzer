@@ -1,12 +1,13 @@
-name: java-47deg.yaml
+name: java-47deg
 filetype: (jsp$|java$)
-target: line echo name: 47deg
-filetype: (jsp$|java$)
+target: line
+name: 47deg
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: 47deg
 tags:
 - value: 47deg
 patterns:
 - value: 47deg
+#- import com.47deg

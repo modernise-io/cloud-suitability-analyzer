@@ -1,12 +1,13 @@
-name: java-fasterxml.yaml
+name: java-fasterxml
 filetype: (jsp$|java$)
-target: line echo name: fasterxml
-filetype: (jsp$|java$)
+target: line
+name: fasterxml
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: fasterxml
 tags:
 - value: fasterxml
 patterns:
 - value: fasterxml
+#- import com.fasterxml

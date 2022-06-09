@@ -1,12 +1,13 @@
-name: java-gilt.yaml
+name: java-gilt
 filetype: (jsp$|java$)
-target: line echo name: gilt
-filetype: (jsp$|java$)
+target: line
+name: gilt
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: gilt
 tags:
 - value: gilt
 patterns:
 - value: gilt
+#- import com.gilt

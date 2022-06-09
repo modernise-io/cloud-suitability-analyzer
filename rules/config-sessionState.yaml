@@ -12,3 +12,4 @@ tags:
   - value: TAS
 patterns:
   - value: /configuration/system.web/sessionState[@mode="InProc" or @mode="StateServer"][1]
+#OK

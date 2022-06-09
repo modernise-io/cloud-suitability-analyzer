@@ -1,12 +1,13 @@
-name: java-angular.yaml
+name: java-angular
 filetype: (jsp$|java$)
-target: line echo name: angular
-filetype: (jsp$|java$)
+target: line
+name: angular
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: angular
 tags:
 - value: angular
 patterns:
 - value: angular
+#- import com.angular

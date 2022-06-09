@@ -1,12 +1,13 @@
-name: java-jconfig.yaml
+name: java-jconfig
 filetype: (jsp$|java$)
-target: line echo name: jconfig
-filetype: (jsp$|java$)
+target: line
+name: jconfig
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jconfig
 tags:
 - value: jconfig
 patterns:
 - value: jconfig
+#- import com.jconfig

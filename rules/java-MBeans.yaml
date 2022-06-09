@@ -7,14 +7,13 @@ effort: 100
 readiness: 10
 category: websphere
 tags:
-  - value: mbeans
+  - value: message-beans
   - value: jmx
   - value: websphere
-  - value: admin
-  - value: api
 patterns:
   - value: "WebSphere:"
-##WebSphere:feature
-##WebSphere:name
-##WebSphere:service
-##WebSphere:type
+#- WebSphere:feature
+#- #C2RWebSphere:name
+#- #C2RWebSphere:service
+#- #C2RWebSphere:type
+#C2R

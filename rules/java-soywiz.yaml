@@ -1,12 +1,13 @@
-name: java-soywiz.yaml
+name: java-soywiz
 filetype: (jsp$|java$)
-target: line echo name: soywiz
-filetype: (jsp$|java$)
+target: line
+name: soywiz
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: soywiz
 tags:
 - value: soywiz
 patterns:
 - value: soywiz
+#- import com.soywiz

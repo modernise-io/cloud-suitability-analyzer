@@ -1,12 +1,13 @@
-name: java-j4Unit.yaml
+name: java-j4Unit
 filetype: (jsp$|java$)
-target: line echo name: j4Unit
-filetype: (jsp$|java$)
+target: line
+name: j4Unit
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: j4Unit
 tags:
 - value: j4Unit
 patterns:
 - value: j4Unit
+#- import com.j4Unit

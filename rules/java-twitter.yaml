@@ -1,12 +1,13 @@
-name: java-twitter.yaml
+name: java-twitter
 filetype: (jsp$|java$)
-target: line echo name: twitter
-filetype: (jsp$|java$)
+target: line
+name: twitter
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: twitter
 tags:
 - value: twitter
 patterns:
 - value: twitter
+#- import com.twitter

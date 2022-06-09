@@ -1,12 +1,13 @@
-name: java-jayway.yaml
+name: java-jayway
 filetype: (jsp$|java$)
-target: line echo name: jayway
-filetype: (jsp$|java$)
+target: line
+name: jayway
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: jayway
 tags:
 - value: jayway
 patterns:
 - value: jayway
+#- import com.jayway

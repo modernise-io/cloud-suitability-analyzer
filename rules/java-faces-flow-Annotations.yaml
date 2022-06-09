@@ -12,3 +12,4 @@ tags:
 - value: jsf
 patterns:
 - value: FlowScoped
+#- @FlowScoped

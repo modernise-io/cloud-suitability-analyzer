@@ -1,12 +1,13 @@
-name: java-truward.yaml
+name: java-truward
 filetype: (jsp$|java$)
-target: line echo name: truward
-filetype: (jsp$|java$)
+target: line
+name: truward
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: truward
 tags:
 - value: truward
 patterns:
 - value: truward
+#- import com.truward

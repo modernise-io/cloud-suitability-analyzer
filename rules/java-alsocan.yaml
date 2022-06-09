@@ -1,12 +1,13 @@
-name: java-alsocan.yaml
+name: java-alsocan
 filetype: (jsp$|java$)
-target: line echo name: alsocan
-filetype: (jsp$|java$)
+target: line
+name: alsocan
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: alsocan
 tags:
 - value: alsocan
 patterns:
 - value: alsocan
+#- import com.alsocan

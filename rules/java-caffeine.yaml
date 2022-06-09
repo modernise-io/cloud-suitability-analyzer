@@ -1,12 +1,13 @@
-name: java-caffeine.yaml
+name: java-caffeine
 filetype: (jsp$|java$)
-target: line echo name: caffeine
-filetype: (jsp$|java$)
+target: line
+name: caffeine
 type: regex
-defaultpattern: ^.*import(\s*|=)%s.*$
+defaultpattern: ^ *import *(io|com|org|net|edu)\.%s
 advice: Consult 3rd party documentation
 category: caffeine
 tags:
 - value: caffeine
 patterns:
 - value: caffeine
+#- import com.caffeine
