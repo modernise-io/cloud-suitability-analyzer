@@ -11,5 +11,8 @@ tags:
   - value: jaxws
 patterns:
   - value: jboss-annotations-api_1.3_spec
+  tag: jboss-annotations-1-3
   - value: jboss-servlet-api_4.0_spec
+  tag: jboss-servlet-4.0
   - value: javax.enterprise.concurrent-api
+  tag: javax-enterprise-concurrent

@@ -7,12 +7,9 @@ effort: 100
 readiness: 10
 category: websphere
 tags:
-  - value: mbeans
-  - value: jmx
+  - value: mdb
   - value: websphere
-  - value: admin
-  - value: api
-patterns:
+ atterns:
   - value: "WebSphere:"
 ##WebSphere:feature
 ##WebSphere:name
