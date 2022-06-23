@@ -12,7 +12,7 @@ readiness: 7
 tags:
   - value: annotations
   - value: jca
- atterns:
+patterns:
   - value: AdministeredObjectDefinition
   - value: ConnectionFactoryDefinition
   - value: ConnectionFactoryDefinitions

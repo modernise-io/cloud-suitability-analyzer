@@ -8,6 +8,6 @@ readiness: 10
 category: webLogic
 tags:
   - value: weblogic
- atterns:
+patterns:
   - value: import weblogic.
 ## import weblogic.

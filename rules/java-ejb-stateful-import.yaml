@@ -10,6 +10,6 @@ readiness: 7
 tags:
 - value: ejb
 - value: stateful
--atterns:
+patterns:
 - value: import javax.ejb.Stateful
 ## import javax.ejb.Stateful

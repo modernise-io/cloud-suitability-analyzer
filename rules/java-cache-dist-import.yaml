@@ -11,7 +11,7 @@ tags:
   - value: stateful
   - value: cache
   - value: distcache
- atterns:
+patterns:
   - value: org.ehcache #--- dist
     tag: ehcache
   - value: com.hazelcast #--- dist

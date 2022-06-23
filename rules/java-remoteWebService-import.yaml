@@ -9,7 +9,7 @@ readiness: 10
 category: webService
 tags:
   - value: webservices
- atterns:
+patterns:
   - value: javax.xml.ws.AsyncHandler
     tag: javax-xml-ws 
   - value: javax.xml.ws.Service

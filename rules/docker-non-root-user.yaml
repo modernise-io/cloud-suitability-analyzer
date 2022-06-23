@@ -11,7 +11,7 @@ readiness: 1000
 tags:
   - value: non-root-user
   - value: docker
- atterns:
+patterns:
   - value: RUN groupadd
   - value: RUN useradd
   - value: USER

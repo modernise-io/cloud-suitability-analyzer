@@ -10,6 +10,6 @@ readiness: 1000
 tags:
   - value: ejb
   - value: stateful
-  tterns:
+patterns:
   - value: <session-type>Stateful</session-type>
 ##<session-type>Stateful</session-type>

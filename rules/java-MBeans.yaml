@@ -9,7 +9,7 @@ category: websphere
 tags:
   - value: mdb
   - value: websphere
- atterns:
+patterns:
   - value: "WebSphere:"
 ##WebSphere:feature
 ##WebSphere:name

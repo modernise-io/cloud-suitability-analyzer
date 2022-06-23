@@ -7,7 +7,7 @@ recipes:
 effort: 10
 readiness: 0
 category: security
-tags:  tag: javax-net-ssl
+tags: 
 - value: security
 patterns:
 - value: javax.net.ssl.keyStore

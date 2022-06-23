@@ -10,7 +10,7 @@ category: ejb
 tags:
   - value: ejb
   - value: stateless
- atterns:
+patterns:
   - value: EJBContext
   - value: EJBHome
   - value: EJBLocalHome
