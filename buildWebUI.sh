@@ -17,7 +17,7 @@ echo "~~~> Compile/Minify UI"
 pushd ${WORKING_DIR}/csa-app/frontend > /dev/null
 
   echo "~~~> Running npm ci"
-  export NODE_OPTIONS="--max_old_space_size=4096"
+  export NODE_OPTIONS="--max_old_space_size=8192"
 
   #npm ci -s --no-optional #> /dev/null 2>&1
   npm ci -s --no-optional --force --legacy-peer-deps
