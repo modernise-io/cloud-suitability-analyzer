@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-
+	"html"
 	//"github.com/inancgumus/screen"
 	"csa-app/db"
 	"csa-app/gocloc"
@@ -636,10 +636,17 @@ func (csaService *CsaService) genAppCSAResults(run *model.Run) {
 
 			fileFindings = append(fileFindings, fileFinding)
 		}
-		if util.CsvReportFileName != nil {
+		csvFileName := ""
+		htmlFileName := ""
+        csvFileName = *util.CsvReportFileName
+		htmlFileName = *util.HtmlReportFileName
+
+		if csvFileName != "" {
+			fmt.Println("CSV",csvFileName)
 			csaService.generateCsvReport(fileFindings)
 		}
-		if util.HtmlReportFileName != nil {
+		if htmlFileName != "" {
+			fmt.Println("HTML",htmlFileName)
 			csaService.generateHtmlReport(fileFindings, run)
 		}
 	}
@@ -665,6 +672,12 @@ func (csaService *CsaService) genAppCSAResults(run *model.Run) {
 
 }
 
+func removeBOM(content string) string{
+	fileBytes := []byte(content)
+	trimmedBytes := bytes.Trim(fileBytes, "\xef\xbb\xbf")
+	return string(trimmedBytes)
+}
+
 func (csaService *CsaService) generateCsvReport(findings []model.Finding) {
 	var reportFile = *util.ReportDir + string(os.PathSeparator) + *util.CsvReportFileName
 
@@ -682,8 +695,12 @@ func (csaService *CsaService) generateCsvReport(findings []model.Finding) {
 		finding.Value = strings.Replace(finding.Value, ",", "", -2)
 		finding.Value = strings.Replace(finding.Value, "\n", "", -2)
 		finding.Value = strings.Replace(finding.Value, "\r", "", -2)
+		finding.Value = strings.Replace(finding.Value, "\"", "'", -2)
+		finding.Value = removeBOM(finding.Value)
+		
+		finding.Pattern = strings.Replace(finding.Pattern, "\"", "'", -2)
 
-		line := fmt.Sprintf("\"%s\",\"%s\",\"%s\",%d,\"%s\",\"%s\",%d,\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n", finding.Application, finding.Filename, finding.Fqn, finding.Line, finding.Rule, finding.Advice, finding.Effort, finding.Category, finding.Criticality, finding.Ext, finding.Pattern, finding.Value, finding.Readiness, GetLevelForScore(finding.Effort))
+		line := fmt.Sprintf("\"%s\",\"%s\",\"%s\",%d,\"%s\",\"%s\",%d,\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%d\",\"%s\"\n", finding.Application, finding.Filename, finding.Fqn, finding.Line, finding.Rule, finding.Advice, finding.Effort, finding.Category, finding.Criticality, finding.Ext, finding.Pattern, finding.Value, finding.Readiness, GetLevelForScore(finding.Effort))
 		_, err2 := file.WriteString(line)
 		if err2 != nil {
 			fmt.Printf("failed write to file file: %s", err2)
@@ -722,7 +739,10 @@ func (csaService *CsaService) generateHtmlReport(findings []model.Finding, run *
 		b.WriteString("<td>" + finding.Rule + "</td>")
 		b.WriteString("<td>" + finding.Fqn + "</td>")
 		b.WriteString("<td class=\"small\">" + strconv.Itoa(finding.Line) + "</td>")
-		b.WriteString("<td>" + finding.Value + "</td>")
+
+        escapedValue := html.EscapeString(finding.Value)
+
+		b.WriteString("<td class=\"big\">" + escapedValue + "</td>")
 		b.WriteString("<td class=\"small\">" + GetLevelForScore(finding.Effort) + "</td>")
 		b.WriteString("<td class=\"small\">" + strconv.Itoa(finding.Effort) + "</td>")
 		b.WriteString("<td>" + finding.Advice + "</td>")

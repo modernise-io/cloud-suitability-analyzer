@@ -20,29 +20,32 @@ import (
 )
 
 func (csaService *CsaService) analyzeApp(run *model.Run, app *model.Application, output chan<- interface{}) (errors []error) {
-
+	//fmt.Println("DEBUG: Analyze App")
 	run.StartActivity(fmt.Sprintf("%s-analysis", app.Name))
 	waitGroup := sync.WaitGroup{}
 
 	util.InitializeSpinners(len(run.Applications))
 
 	modCnt := util.GetModCount(run.Files)
-
-	if *util.Verbose {
+	//fmt.Println("DEBUG: MD CT", modCnt)
+	//if *util.Verbose {
 		fmt.Printf("Got Mod Count [%d]\n", modCnt)
-	}
+	//}
 
 	for i := range app.Files {
 		waitGroup.Add(1)
 		go func(idx int) {
+
+			//fmt.Println("DEBUG: File Name", app.Files[idx].Name)
 			defer waitGroup.Done()
-			if *util.Verbose {
+			//if *util.Verbose {
 				util.WriteLog(fmt.Sprintf("A1nalyzing - %s", app.Name), "Scanning Files...   Filename: %s\n", app.Files[idx].FQN)
-			}
+			//}
 
 			err := csaService.analyzeFile(run, app, app.Files[idx], csaService.saveChan)
 
 			if err != nil {
+				fmt.Println("DEBUG: ERROR ", err.Error())
 				if *util.FailFast {
 					util.WriteLog("A2nalyzing...error!", "Error occurred during analysis! Details: %s", err.Error())
 					csaService.stopRun(run)
