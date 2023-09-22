@@ -269,7 +269,7 @@ func (reportService *ReportService) GenerateHtmlExport(findings []model.Finding,
 
 	metadataHtml := "<li>Target: " + run.Target + "</li>"
 	metadataHtml += "<li>Created Time: " + run.CreatedAt.Format(time.ANSIC) + "</li>"
-	metadataHtml += "<li>#Findings: " + strconv.Itoa(run.Findings) + "</li>"
+	metadataHtml += "<li>#Findings: " + strconv.Itoa(len(findings)) + "</li>"
 	var b bytes.Buffer
 	fmt.Printf("Findings [%d]", len(findings))
 	for _, finding := range findings {
